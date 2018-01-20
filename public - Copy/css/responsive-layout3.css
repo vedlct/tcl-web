@@ -1,0 +1,209 @@
+/*
+
+	File Name: Responsive.css
+	Template Name: Andazi - Minimal Portfolio Template
+	Created By: Mixturethemes
+	http://themeforest.net/user/mixturethemes
+	
+*/
+
+
+/* Normal desktop :992px. */
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+
+	
+	
+}
+/* Tablet desktop :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	#testistyle7 {
+		display:inline-block;
+	}
+	
+	.port_img.layout3 .portOverlay .valign {
+		transform: translateY(-10%);
+	}
+	
+	.clients.layout3 .client-item img {
+		margin:0 auto;
+	}
+	
+	.clients.layout3 .hidden-item .client-item img {
+		margin-bottom:60px;
+	}
+	
+	.clients.layout3 .hidden-item .client-item img.nomarbotatsm,
+	.clients.layout3 .hidden-item .client-item img.nomarbotattab {
+		margin-bottom:0px;
+	}
+	
+	.single_panel.layout3 {
+		width:90%;
+		margin:0 auto;
+	}
+	
+	.comment_form_layout3 {
+		display:block;
+	}
+
+	div.andazi_panel_items nav {
+		left:50%;
+	}
+	
+	.single_contact_info_layout3 {
+		margin-bottom:60px;
+	}
+	
+	#map-canvas {
+		margin-top:0px;
+		height:370px;
+		margin-bottom: 150px;
+	}
+
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.andazi_front i {
+		display:none;
+	}
+	
+	.about_read_more.layout3 {
+		margin-bottom:60px;
+	}
+	
+	.port_img.layout3 .portOverlay .valign {
+		transform: translateY(0%);
+	}
+	
+	.clients.layout3 .client-item img {
+		margin:0 auto;
+	}
+	
+	.clients.layout3 .hidden-item .client-item img {
+		margin-bottom:60px;
+	}
+	
+	.clients.layout3 .hidden-item .client-item img.nomarbotatsm {
+		margin-bottom:0px;
+	}
+	
+	.clients.layout3 .shown-item .client-item img.martop90atsm {
+		margin-top:90px;
+	}
+	
+	.elasticstack {
+		margin-top:60px;
+	}
+	
+	.masonry_item.layout3 {
+		margin-bottom:60px;
+		display:inline-block;
+	}
+	
+	.masonry_item.layout3.marbotminus60atsm {
+		margin-bottom:30px;
+	}
+	
+	.single_panel.layout3 {
+		width:100%;
+		margin:0 auto;
+	}
+	
+	.comment_form_layout3 {
+		display:block;
+	}
+
+	div.andazi_panel_items nav {
+		left:51%;
+	}
+	
+	.single_contact_info_layout3 {
+		margin-bottom:60px;
+	}
+	
+	#map-canvas {
+		margin-bottom:0px;
+	}
+	
+}
+
+/* small mobile :320px. */
+@media only screen and (max-width: 479px) {
+
+	.andazi_front i {
+		display:none;
+	}
+	
+	.andazi_front h3 {
+		font-size:18px;
+	}
+	
+	.about_read_more.layout3 {
+		margin-bottom:60px;
+	}
+	
+	.clients.layout3 .hidden-item .client-item img {
+		margin-bottom:60px;
+	}
+	
+	.clients.layout3 .shown-item,
+	.clients.layout3 .hidden-item {
+		margin:10px;
+	}
+	
+	.clients.layout3 .hidden-item .client-item img.nomarbotatsm {
+		margin-bottom:0px;
+	}
+	
+	.clients.layout3 .shown-item .client-item img.martop90atsm {
+		margin-top:90px;
+	}
+	
+	.elasticstack {
+		width:290px;
+		height:335px;
+		margin-top:60px;
+	}
+	
+	.elasticstack li {
+		width:290px;
+		height:335px;
+	}
+	
+	.content_title p {
+		padding:0 15px;
+	}
+	
+	.masonry_item.layout3 {
+		margin-bottom:60px;
+		display:inline-block;
+	}
+	
+	.masonry_item.layout3.marbotminus60atsm {
+		margin-bottom:30px;
+	}
+	
+	.single_panel.layout3 {
+		width:100%;
+		margin:0 auto;
+	}
+	
+	.comment_form_layout3 {
+		display:block;
+	}
+
+	div.andazi_panel_items nav {
+		left:42%;
+	}
+	
+	.single_contact_info_layout3 {
+		margin-bottom:60px;
+	}
+	
+	#map-canvas {
+		margin-bottom:0px;
+	}
+	
+}
