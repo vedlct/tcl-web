@@ -1986,7 +1986,7 @@
 								<div class="col-md-6">
                                 
                                 <div id="rightDisplay">
-                                      <img class="img-responsive" id="currentImg1" src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_1.png" />
+                                      <img class="img-responsive" id="currentImg1" src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_1.png','850','600')); ?>" />
                                 </div>
                                 
                                 <div id="mainContainer">
@@ -2038,20 +2038,20 @@
 								<div class="col-md-6">
                                 
                                 <div id="rightDisplay">
-                                      <img id="currentImg2" src="<?php echo base_url()?>public/images/ppd-portfolio/coloring/item_1.jpg" alt="bridget_moynahan_00.jpg" title="bridget_moynahan_00.jpg" />
+                                      <img id="currentImg2" src="<?php echo base_url('public/images/ppd-portfolio/coloring/'.thumb('public/images/ppd-portfolio/coloring/item_1.jpg','850','600')); ?>" alt="bridget_moynahan_00.jpg" title="bridget_moynahan_00.jpg" />
                                    </div>
                                 
                                 <div id="mainContainer">
    										<div id="leftNav">
                                         	<div class="row">
-                                            	<div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/coloring/item_1.jpg" onclick="showImage2('item_1.jpg');"></div>
-                                                <div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/coloring/item_2.jpg" onclick="showImage2('item_2.jpg');"></div>
-                                                <div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/coloring/item_3.jpg" onclick="showImage2('item_3.jpg');"></div>
-                                                <div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/coloring/item_4.jpg" onclick="showImage2('item_4.jpg');"></div>
-                                                <div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/coloring/item_5.jpg" onclick="showImage2('item_5.jpg');"></div>
-                                                <div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/coloring/item_6.jpg" onclick="showImage2('item_6.jpg');"></div>
-                                                <div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/coloring/item_7.jpg" onclick="showImage2('item_7.jpg');"></div>
-                                                <div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/coloring/item_8.jpg" onclick="showImage2('item_8.jpg');"></div>
+                                            	<div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/coloring/'.thumb('public/images/ppd-portfolio/coloring/item_1.jpg','116','82')); ?>" onclick="showImage2('item_1.jpg');"></div>
+                                                <div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/coloring/'.thumb('public/images/ppd-portfolio/coloring/item_2.jpg','116','82')); ?>" onclick="showImage2('item_2.jpg');"></div>
+                                                <div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/coloring/'.thumb('public/images/ppd-portfolio/coloring/item_3.jpg','116','82')); ?>" onclick="showImage2('item_3.jpg');"></div>
+                                                <div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/coloring/'.thumb('public/images/ppd-portfolio/coloring/item_4.jpg','116','82')); ?>" onclick="showImage2('item_4.jpg');"></div>
+                                                <div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/coloring/'.thumb('public/images/ppd-portfolio/coloring/item_5.jpg','116','82')); ?>" onclick="showImage2('item_5.jpg');"></div>
+                                                <div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/coloring/'.thumb('public/images/ppd-portfolio/coloring/item_6.jpg','116','82')); ?>" onclick="showImage2('item_6.jpg');"></div>
+                                                <div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/coloring/'.thumb('public/images/ppd-portfolio/coloring/item_7.jpg','116','82')); ?>" onclick="showImage2('item_7.jpg');"></div>
+                                                <div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/coloring/'.thumb('public/images/ppd-portfolio/coloring/item_8.jpg','116','82')); ?>" onclick="showImage2('item_8.jpg');"></div>
                   
                                             </div>
                                 		</div>
@@ -2084,16 +2084,16 @@
 								<div class="col-md-6">
                                 
                                 <div id="rightDisplay">
-                                      <img id="currentImg3" src="<?php echo base_url()?>public/images/ppd-portfolio/wrinkle-removing/item_1.jpg" />
+                                      <img id="currentImg3" src="<?php echo base_url('public/images/ppd-portfolio/wrinkle-removing/'.thumb('public/images/ppd-portfolio/wrinkle-removing/item_1.jpg','850','600')); ?>" />
                                    </div>
                                 
                                 <div id="mainContainer">
    										<div id="leftNav">
                                             <div class="row">
-                                                <div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/wrinkle-removing/item_1.jpg" onclick="showImage3('item_1.jpg');"></div>
-                                                <div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/wrinkle-removing/item_2.jpg" onclick="showImage3('item_2.jpg');"></div>
-                                                <div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/wrinkle-removing/item_3.jpg" onclick="showImage3('item_3.jpg');"></div>
-                                                <div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/wrinkle-removing/item_4.jpg" onclick="showImage3('item_4.jpg');"></div>
+                                                <div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/wrinkle-removing/'.thumb('public/images/ppd-portfolio/wrinkle-removing/item_1.jpg','116','82')); ?>" onclick="showImage3('item_1.jpg');"></div>
+                                                <div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/wrinkle-removing/'.thumb('public/images/ppd-portfolio/wrinkle-removing/item_2.jpg','116','82')); ?>" onclick="showImage3('item_2.jpg');"></div>
+                                                <div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/wrinkle-removing/'.thumb('public/images/ppd-portfolio/wrinkle-removing/item_3.jpg','116','82')); ?>" onclick="showImage3('item_3.jpg');"></div>
+                                                <div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/wrinkle-removing/'.thumb('public/images/ppd-portfolio/wrinkle-removing/item_4.jpg','116','82')); ?>" onclick="showImage3('item_4.jpg');"></div>
                                             </div>
                                 		</div>
                                 </div>
@@ -2125,16 +2125,16 @@
 								<div class="col-md-6">
                                 
                                 <div id="rightDisplay">
-                                      <img id="currentImg4" src="<?php echo base_url()?>public/images/ppd-portfolio/hair-masking/item_1.jpg"  />
+                                      <img id="currentImg4" src="<?php echo base_url('public/images/ppd-portfolio/hair-masking/'.thumb('public/images/ppd-portfolio/hair-masking/item_1.jpg','850','600')); ?>"  />
                                    </div>
                                 
                                 <div id="mainContainer">
    										<div id="leftNav">
                                         	<div class="row">
-                                            	<div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/hair-masking/item_1.jpg" onclick="showImage4('item_1.jpg');"></div>
-                                            	<div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/hair-masking/item_2.jpg" onclick="showImage4('item_2.jpg');"></div>
-                                            	<div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/hair-masking/item_3.jpg" onclick="showImage4('item_3.jpg');"></div>
-                                            	<div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/hair-masking/item_4.jpg" onclick="showImage4('item_4.jpg');"></div>
+                                            	<div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/hair-masking/'.thumb('public/images/ppd-portfolio/hair-masking/item_1.jpg','116','82')); ?>" onclick="showImage4('item_1.jpg');"></div>
+                                            	<div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/hair-masking/'.thumb('public/images/ppd-portfolio/hair-masking/item_2.jpg','116','82')); ?>" onclick="showImage4('item_2.jpg');"></div>
+                                            	<div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/hair-masking/'.thumb('public/images/ppd-portfolio/hair-masking/item_3.jpg','116','82')); ?>" onclick="showImage4('item_3.jpg');"></div>
+                                            	<div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/hair-masking/'.thumb('public/images/ppd-portfolio/hair-masking/item_4.jpg','116','82')); ?>" onclick="showImage4('item_4.jpg');"></div>
                                             </div>
                                 		</div>
                                 </div>
@@ -2166,17 +2166,17 @@
 								<div class="col-md-6">
                                 
                                 <div id="rightDisplay">
-                                      <img id="currentImg5" src="<?php echo base_url()?>public/images/ppd-portfolio/jewelry-retouching/item_1.jpg" />
+                                      <img id="currentImg5" src="<?php echo base_url('public/images/ppd-portfolio/jewelry-retouching/'.thumb('public/images/ppd-portfolio/jewelry-retouching/item_1.jpg','850','600')); ?>" />
                                    </div>
                                 
                                 <div id="mainContainer">
    										<div id="leftNav">
                                         	<div class="row">
-                                            	<div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/jewelry-retouching/item_1.jpg" onclick="showImage5('item_1.jpg');"></div>
-                                            	<div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/jewelry-retouching/item_2.jpg" onclick="showImage5('item_2.jpg');"></div>
-                                            	<div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/jewelry-retouching/item_3.jpg" onclick="showImage5('item_3.jpg');"></div>
-                                            	<div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/jewelry-retouching/item_4.jpg" onclick="showImage5('item_4.jpg');"></div>
-                                            	<div class="col-xs-3"><img src="<?php echo base_url()?>public/images/ppd-portfolio/jewelry-retouching/item_5.jpg" onclick="showImage5('item_5.jpg');"></div>
+                                            	<div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/jewelry-retouching/'.thumb('public/images/ppd-portfolio/jewelry-retouching/item_1.jpg','116','82')); ?>" onclick="showImage5('item_1.jpg');"></div>
+                                            	<div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/jewelry-retouching/'.thumb('public/images/ppd-portfolio/jewelry-retouching/item_2.jpg','116','82')); ?>" onclick="showImage5('item_2.jpg');"></div>
+                                            	<div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/jewelry-retouching/'.thumb('public/images/ppd-portfolio/jewelry-retouching/item_3.jpg','116','82')); ?>" onclick="showImage5('item_3.jpg');"></div>
+                                            	<div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/jewelry-retouching/'.thumb('public/images/ppd-portfolio/jewelry-retouching/item_4.jpg','116','82')); ?>" onclick="showImage5('item_4.jpg');"></div>
+                                            	<div class="col-xs-3"><img src="<?php echo base_url('public/images/ppd-portfolio/jewelry-retouching/'.thumb('public/images/ppd-portfolio/jewelry-retouching/item_5.jpg','116','82')); ?>" onclick="showImage5('item_5.jpg');"></div>
                                             </div>
                                 		</div>
                                 </div>
