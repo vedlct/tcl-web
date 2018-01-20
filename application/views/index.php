@@ -1000,7 +1000,8 @@
 				
 				<div class="andazi_back">
 					<div class="sub_hero_title">
-						<h3 class="inside_site_title"><img src="<?php echo base_url()?>public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>
+						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','69')); ?>" alt="TCL Logo" width="80"></h3>
+<!--						<h3 class="inside_site_title"><img src="--><?php //echo base_url()?><!--public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>-->
 						<span class="andazi-close icon ion-ios-close-outline"></span>
 						<div class="sub_title">
 							<h3>Image Post Production</h3>
@@ -1038,7 +1039,8 @@
                                         <li class="col-md-4 masonry_item">
                                             <div class="single_post">
                                                 <a href="" class="super_overlay" data-panel="panel-1" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_1.png" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/ppd-portfolio/ghost-mannequin/item_1.png" alt="" />-->
+                                                    <img src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_1.png','370','261')); ?>" alt="" />
                                                 </div></a>
                                                 
                                                     <div class="post_date">
@@ -1053,7 +1055,8 @@
                                         <li class="col-md-4 masonry_item">
                                             <div class="single_post">
                                                 <a href="" class="super_overlay" data-panel="panel-2" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/ppd-portfolio/coloring/item_8.jpg" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/ppd-portfolio/coloring/item_8.jpg" alt="" />-->
+                                                    <img src="<?php echo base_url('public/images/ppd-portfolio/coloring/'.thumb('public/images/ppd-portfolio/coloring/item_8.jpg','370','261')); ?>" alt="" />
                                                 </div></a>
                                                 
                                                     <div class="post_date">
@@ -1068,7 +1071,8 @@
                                         <li class="col-md-4 masonry_item">
                                             <div class="single_post">
                                                 <a href="" class="super_overlay" data-panel="panel-3" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/ppd-portfolio/wrinkle-removing/item_2.jpg" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/ppd-portfolio/wrinkle-removing/item_2.jpg" alt="" />-->
+                                                    <img src="<?php echo base_url('public/images/ppd-portfolio/wrinkle-removing/'.thumb('public/images/ppd-portfolio/wrinkle-removing/item_2.jpg','370','261')); ?>" alt="" />
                                                 </div></a>
                                                 
                                                     <div class="post_date">
@@ -1083,7 +1087,8 @@
                                         <li class="col-md-4 masonry_item">
                                             <div class="single_post">
                                                 <a href="" class="super_overlay" data-panel="panel-4" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/ppd-portfolio/hair-masking/item_2.jpg" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/ppd-portfolio/hair-masking/item_2.jpg" alt="" />-->
+                                                    <img src="<?php echo base_url('public/images/ppd-portfolio/hair-masking/'.thumb('public/images/ppd-portfolio/hair-masking/item_2.jpg','370','261')); ?>" alt="" />
                                                 </div></a>
                                                 
                                                     <div class="post_date">
@@ -1098,7 +1103,8 @@
                                         <li class="col-md-4 masonry_item">
                                             <div class="single_post">
                                                 <a href="" class="super_overlay" data-panel="panel-5" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/ppd-portfolio/jewelry-retouching/item_2.jpg" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/ppd-portfolio/jewelry-retouching/item_2.jpg" alt="" />-->
+                                                    <img src="<?php echo base_url('public/images/ppd-portfolio/jewelry-retouching/'.thumb('public/images/ppd-portfolio/jewelry-retouching/item_2.jpg','370','261')); ?>" alt="" />
                                                 </div></a>
                                                 
                                                     <div class="post_date">
@@ -1113,7 +1119,8 @@
                                         <li class="col-md-4 masonry_item">
                                             <div class="single_post">
                                                 <a href="" class="super_overlay" data-panel="panel-6" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/ppd-portfolio/product-retouching/item_1.jpg" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/ppd-portfolio/product-retouching/item_1.jpg" alt="" />-->
+                                                    <img src="<?php echo base_url('public/images/ppd-portfolio/product-retouching/'.thumb('public/images/ppd-portfolio/product-retouching/item_1.jpg','370','261')); ?>" alt="" />
                                                 </div></a>
                                                 
                                                     <div class="post_date">
@@ -1128,7 +1135,8 @@
                                         <li class="col-md-4 masonry_item">
                                             <div class="single_post">
                                                 <a href="" class="super_overlay" data-panel="panel-7" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/ppd-portfolio/reflection/item_2.jpg" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/ppd-portfolio/reflection/item_2.jpg" alt="" />-->
+                                                    <img src="<?php echo base_url('public/images/ppd-portfolio/reflection/'.thumb('public/images/ppd-portfolio/reflection/item_2.jpg','370','261')); ?>" alt="" />
                                                 </div></a>
                                                 
                                                     <div class="post_date">
@@ -1143,7 +1151,8 @@
                                         <li class="col-md-4 masonry_item">
                                             <div class="single_post">
                                                 <a href="" class="super_overlay" data-panel="panel-8" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/ppd-portfolio/shadow/item_2.jpg" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/ppd-portfolio/shadow/item_2.jpg" alt="" />-->
+                                                    <img src="<?php echo base_url('public/images/ppd-portfolio/shadow/'.thumb('public/images/ppd-portfolio/shadow/item_2.jpg','370','261')); ?>" alt="" />
                                                 </div></a>
                                                 
                                                     <div class="post_date">
@@ -1158,7 +1167,8 @@
                                         <li class="col-md-4 masonry_item">
                                             <div class="single_post">
                                                 <a href="" class="super_overlay" data-panel="panel-9" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/ppd-portfolio/skin-retouching/item_4.jpg" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/ppd-portfolio/skin-retouching/item_4.jpg" alt="" />-->
+                                                    <img src="<?php echo base_url('public/images/ppd-portfolio/skin-retouching/'.thumb('public/images/ppd-portfolio/skin-retouching/item_4.jpg','370','261')); ?>" alt="" />
                                                 </div></a>
                                                 
                                                     <div class="post_date">
@@ -1172,7 +1182,8 @@
                                         <li class="col-md-4 masonry_item">
                                             <div class="single_post">
                                                 <a href="" class="super_overlay" data-panel="panel-10" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/ppd-portfolio/back-ground-retouch/item_2.jpg" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/ppd-portfolio/back-ground-retouch/item_2.jpg" alt="" />-->
+                                                    <img src="<?php echo base_url('public/images/ppd-portfolio/back-ground-retouch/'.thumb('public/images/ppd-portfolio/back-ground-retouch/item_2.jpg','370','261')); ?>" alt="" />
                                                 </div></a>
                                                 
                                                     <div class="post_date">
@@ -1981,16 +1992,17 @@
                                 <div id="mainContainer">
    										<div id="leftNav">
                                         	<div class="row">
-                                            	<div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_1.png" onclick="showImage('item_1.png');"></div>
-                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_2.jpg" onclick="showImage('item_2.jpg');"></div>
-                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_3.jpg" onclick="showImage('item_3.jpg');"></div>
-                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_4.jpg" onclick="showImage('item_4.jpg');"></div>
-                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_5.jpg" onclick="showImage('item_5.jpg');"></div>
-                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_6.jpg" onclick="showImage('item_6.jpg');"></div>
-                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_7.jpg" onclick="showImage('item_7.jpg');"></div>
-                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_8.jpg" onclick="showImage('item_8.jpg');"></div>
-                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_9.jpg" onclick="showImage('item_9.jpg');"></div>
-                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url()?>public/images/ppd-portfolio/ghost-mannequin/item_10.jpg" onclick="showImage('item_10.jpg');"></div>
+
+                                            	<div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_1.png','116','82')); ?>" onclick="showImage('item_1.png');"></div>
+                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_2.jpg','116','82')); ?>" onclick="showImage('item_2.jpg');"></div>
+                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_3.png','116','82')); ?>" onclick="showImage('item_3.jpg');"></div>
+                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_4.jpg','116','82')); ?>" onclick="showImage('item_4.jpg');"></div>
+                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_5.png','116','82')); ?>" onclick="showImage('item_5.jpg');"></div>
+                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_6.jpg','116','82')); ?>" onclick="showImage('item_6.jpg');"></div>
+                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_7.jpg','116','82')); ?>" onclick="showImage('item_7.jpg');"></div>
+                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_8.jpg','116','82')); ?>" onclick="showImage('item_8.jpg');"></div>
+                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_9.jpg','116','82')); ?>" onclick="showImage('item_9.jpg');"></div>
+                                                <div class="col-xs-3"><img class="img-responsive"  src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_10.jpg','116','82')); ?>" onclick="showImage('item_10.jpg');"></div>
                                             </div>
                                 		</div>  
                                 </div>
@@ -2423,6 +2435,8 @@
         curImage.src = theSource;
         curImage.alt = imgName;
         curImage.title = imgName;
+
+
     }
 </script>
 
@@ -2434,6 +2448,7 @@
         curImage.src = theSource;
         curImage.alt = imgName;
         curImage.title = imgName;
+
     }
 </script>
 
@@ -2445,6 +2460,7 @@
         curImage.src = theSource;
         curImage.alt = imgName;
         curImage.title = imgName;
+
     }
 </script>
 
@@ -2456,6 +2472,7 @@
         curImage.src = theSource;
         curImage.alt = imgName;
         curImage.title = imgName;
+
     }
 </script>
 
@@ -2467,6 +2484,7 @@
         curImage.src = theSource;
         curImage.alt = imgName;
         curImage.title = imgName;
+
     }
 </script>
 
@@ -2478,6 +2496,7 @@
         curImage.src = theSource;
         curImage.alt = imgName;
         curImage.title = imgName;
+
     }
 </script>
 
@@ -2489,6 +2508,7 @@
         curImage.src = theSource;
         curImage.alt = imgName;
         curImage.title = imgName;
+
     }
 </script>
 
@@ -2500,6 +2520,7 @@
         curImage.src = theSource;
         curImage.alt = imgName;
         curImage.title = imgName;
+
     }
 </script>
 
@@ -2511,6 +2532,7 @@
         curImage.src = theSource;
         curImage.alt = imgName;
         curImage.title = imgName;
+
     }
 </script>
 
@@ -2522,6 +2544,7 @@
         curImage.src = theSource;
         curImage.alt = imgName;
         curImage.title = imgName;
+
     }
 </script>
 
