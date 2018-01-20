@@ -94,10 +94,10 @@
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="<?php echo base_url()?>Home">Home</a>
         <a href="<?php echo base_url()?>about">About</a>
         <a href="<?php echo base_url()?>csr">CSR</a>
         <a href="<?php echo base_url()?>office-culture">Office Culture</a>
-        <a href="<?php echo base_url()?>contact">Contact</a>
         <a href="<?php echo base_url()?>privacy-policy">Privacy Policy</a>
     </div>
 
