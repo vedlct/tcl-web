@@ -26,6 +26,11 @@
 	<link rel="apple-touch-icon" sizes="152x152" href="<?php echo base_url()?>public/images/apple-touch-icon-152x152.png">
 
 	<!-- Required Css Files -->
+
+<!--    <link rel="stylesheet" type="text/css" href="--><?php //echo base_url()?><!--public/css/allrequired.css">-->
+
+
+
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/ionicons.min.css">
@@ -34,6 +39,9 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/validationEngine.jquery.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/responsive.css">
+
+
+
 	
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -255,7 +263,8 @@
 	<!-- Body Wrapper Start -->
 	<div id="body_wrapper">
 		<div id="site_title">
-			<h3><a href="#"><img src="<?php echo base_url()?>public/images/tcl-logo.png" alt="TCL Logo" width="70" style="margin-top: -15px"></a></h3>
+<!--			<h3><a href="#"><img src="--><?php //echo base_url()?><!--public/images/tcl-logo.png" alt="TCL Logo" width="70" style="margin-top: -15px"></a></h3>-->
+			<h3><a href="#"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','70','60')); ?>" alt="TCL Logo" width="70" height="60" style="margin-top: -15px"></a></h3>
 		</div>
 		<!-- Body Content Start -->
 		<div id="body_content" class="body_content">
@@ -269,7 +278,8 @@
 				
 				<div class="andazi_back">
 					<div class="sub_hero_title">
-						<h3 class="inside_site_title"><img src="<?php echo base_url()?>public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>
+<!--						<h3 class="inside_site_title"><img src="--><?php //echo base_url()?><!--public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>-->
+						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','65.5')); ?>" alt="TCL Logo" width="80" height="65.5"></h3>
 						<span class="andazi-close icon ion-ios-close-outline"></span>
 						<div class="sub_title">
 							<h3>Web App Development</h3>
@@ -290,7 +300,8 @@
                                         <li class="col-sm-6 masonry_item">
                                             <div class="single_post">
                                                 <a href="#" class="super_overlay" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/web-design.jpg" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/web-design.jpg" alt="" />-->
+                                                    <img height="330" width="550" src="<?php echo base_url('public/images/'.thumb('public/images/web-design.jpg','550','330')); ?>" alt="" />
                                                 </div></a>
                                                 <div class="post_content">
                                                     <h4><a href="#." class="super_overlay">WEBSITE DEVELOPMENT</a></h4>
@@ -323,7 +334,8 @@
                                         <li class="col-sm-6 masonry_item">
                                             <div class="single_post">
                                                 <a href="#" class="super_overlay" title="Post One"><div class="post_overlay">
-                                                    <img src="<?php echo base_url()?>public/images/admin-dashboard.png" alt="" />
+<!--                                                    <img src="--><?php //echo base_url()?><!--public/images/admin-dashboard.png" alt="" />-->
+                                                    <img height="330" width="550" src="<?php echo base_url('public/images/'.thumb('public/images/admin-dashboard.png','550','330')); ?>" alt="" />
                                                 </div></a>
                                                 <div class="post_content">
                                                     <h4><a href="" class="super_overlay" data-panel="panel-1">WEB APPLICATION DEVELOPMENT</a></h4>
@@ -356,8 +368,9 @@
                             	<div class="content_title" style="padding-bottom:0; padding-top:40px">
 									<h3>Our Expertise & Tools</h3> 
 									<hr />
-									<img class="img-responsive" src="<?php echo base_url()?>public/images/lc.jpg">
-                                    
+<!--									<img class="img-responsive" src="--><?php //echo base_url()?><!--public/images/lc.jpg">-->
+									<img class="img-responsive"height="758" width="1752" src="<?php echo base_url('public/images/'.thumb('public/images/lc.jpg','1752','758')); ?>">
+
                                    
 								</div>  
                             </div>
@@ -367,7 +380,8 @@
 									<h3>Our Team</h3>
 									<hr />
 									<img class="img-responsive" src="<?php echo base_url()?>public/images/team-web.png">
-								</div>  
+<!--									<img class="img-responsive" height="284"width="550" src="--><?php //echo base_url('public/images/'.thumb('public/images/team-web.png','1752','284')); ?><!--">-->
+								</div>
                             </div>
                             
                             <!--<div class="row">
@@ -463,6 +477,7 @@
                                             <li class="col-md-12 col-sm-12 masonry_item">
                                                 <a href="<?php echo base_url()?>public/images/agile development cycle-large.png" data-group="1" class="galleryItem" title=""><div class="work_content">
                                                     <img src="<?php echo base_url()?>public/images/agile development cycle.png" alt="" />
+
                                                     <div class="work-overlay">
                                                         <div class="valign">
                                                             <span class="icon ion-ios-search"></span>
