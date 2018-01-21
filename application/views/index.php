@@ -27,18 +27,28 @@
 
 	<!-- Required Css Files -->
 
-<!--    <link rel="stylesheet" type="text/css" href="--><?php //echo base_url()?><!--public/css/allrequired.css">-->
 
 
 
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/bootstrap.min.css">
+<!--    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">-->
+
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/font-awesome.css">
+<!--    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet"  crossorigin="anonymous">-->
+
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/ionicons.min.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/tooltip-flip.css">
+<!--	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css">-->
+
+
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/tooltip-flip.css">
+
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/magnific-popup.min.css">
+
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/validationEngine.jquery.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/responsive.css">
+
+<!--    <link rel="stylesheet" type="text/css" href="--><?php //echo base_url()?><!--public/css/allrequired.css">-->
 
 
 
@@ -232,7 +242,7 @@
 	<div id="loader" style="background:#fff">
 		<header id="header">
 			<div id="loader_site_title">
-				<a href="#"><img src="<?php echo base_url()?>public/images/tcl-logo.png" alt="TCL Logo" width="100" style="margin-top: -15px"></a>
+				<a href="#"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','100','85')); ?>" alt="TCL Logo" width="100" style="margin-top: -15px"></a>
 				<h4>Your secure digital workspace</h4>
 			</div>
 		</header>
@@ -279,7 +289,7 @@
 				<div class="andazi_back">
 					<div class="sub_hero_title">
 <!--						<h3 class="inside_site_title"><img src="--><?php //echo base_url()?><!--public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>-->
-						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','66')); ?>" alt="TCL Logo" width="80"></h3>
+						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
 						<span class="andazi-close icon ion-ios-close-outline"></span>
 						<div class="sub_title">
 							<h3>Web App Development</h3>
@@ -478,7 +488,7 @@
 <!--                                                <a href="--><?php //echo base_url()?><!--public/images/agile development cycle-large.png" data-group="1" class="galleryItem" title=""><div class="work_content">-->
                                                 <a href="<?php echo base_url('public/images/'.thumb('public/images/agile development cycle-large.png','1494','840')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
 <!--                                                    <img src="--><?php //echo base_url()?><!--public/images/agile development cycle.png" alt="" />-->
-                                                    <img  src="<?php echo base_url('public/images/'.thumb('public/images/agile development cycle.png','1494','840')); ?>" alt="" />
+                                                    <img  src="<?php echo base_url('public/images/'.thumb('public/images/agile development cycle.png','505','284')); ?>" alt="" />
 
                                                     <div class="work-overlay">
                                                         <div class="valign">
@@ -1000,7 +1010,7 @@
 				
 				<div class="andazi_back">
 					<div class="sub_hero_title">
-						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','69')); ?>" alt="TCL Logo" width="80"></h3>
+						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
 <!--						<h3 class="inside_site_title"><img src="--><?php //echo base_url()?><!--public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>-->
 						<span class="andazi-close icon ion-ios-close-outline"></span>
 						<div class="sub_title">
@@ -1433,7 +1443,7 @@
 				
 				<div class="andazi_back">
 					<div class="sub_hero_title">
-						<h3 class="inside_site_title"><img src="<?php echo base_url()?>public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>
+						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
 						<span class="andazi-close icon ion-ios-close-outline"></span>
 						<div class="sub_title">
 							<h3>Graphic Design</h3>
@@ -1775,8 +1785,9 @@
                                 <div class="content_title" style="padding-bottom:0; padding-top:0">
                                     <h3>How It Works</h3>
                                     <hr />
-                                    <img class="img-responsive" src="<?php echo base_url()?>public/images/dtp-workflow.jpg">
-                                </div>  
+<!--                                    <img class="img-responsive" src="--><?php //echo base_url()?><!--public/images/dtp-workflow.jpg">-->
+                                    <img class="img-responsive" src="<?php echo base_url('public/images/'.thumb('public/images/dtp-workflow.jpg','1140','268')); ?>">
+                                </div>
                              </div>
                         </div>
                         <div class="container" style="padding-bottom:80px">
@@ -1868,7 +1879,7 @@
 				
 				<div class="andazi_back">
 					<div class="sub_hero_title">
-						<h3 class="inside_site_title"><img src="<?php echo base_url()?>public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>
+						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
 						<span class="andazi-close icon ion-ios-close-outline"></span>
 						<div class="sub_title">
 							<h3>Digital Marketing</h3>
@@ -1931,8 +1942,10 @@
                                     <div class="col-md-2"><img class="img-responsive" src="<?php echo base_url()?>public/images/client-logos/BURGER-N-BOOST.jpg"></div>
                                     <div class="col-md-2"><img class="img-responsive" src="<?php echo base_url()?>public/images/client-logos/peon.png"></div>
                                     <div class="col-md-2"><img class="img-responsive" src="<?php echo base_url()?>public/images/client-logos/Designage.png"></div>
-                                    <div class="col-md-2"><img class="img-responsive" src="<?php echo base_url()?>public/images/client-logos/westin.jpeg"></div>
-                                    <div class="col-md-2"><img class="img-responsive" src="<?php echo base_url()?>public/images/client-logos/royal wedding.jpg"></div>
+<!--                                    <div class="col-md-2"><img class="img-responsive" src="--><?php //echo base_url()?><!--public/images/client-logos/westin.jpeg"></div>-->
+                                    <div class="col-md-2"><img class="img-responsive" src="<?php echo base_url('public/images/client-logos/'.thumb('public/images/client-logos/westin.jpeg','160','160')); ?>"></div>
+<!--                                    <div class="col-md-2"><img class="img-responsive" src="--><?php //echo base_url()?><!--public/images/client-logos/royal wedding.jpg"></div>-->
+                                    <div class="col-md-2"><img class="img-responsive" src="<?php echo base_url('public/images/client-logos/'.thumb('public/images/client-logos/royal wedding.jpg','160','160')); ?>"></div>
                                     <div class="col-md-2"><img class="img-responsive" src="<?php echo base_url()?>public/images/client-logos/seashell.png"></div>
 								</div>
 							</div>
@@ -2584,16 +2597,41 @@
 
 <!-- Required Javascript Files -->
 <script src="<?php echo base_url()?>public/js/jquery.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+
+
 <script src="<?php echo base_url()?>public/js/jquery.migrate.min.js"></script>
+
 <script src="<?php echo base_url()?>public/js/bootstrap.min.js"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>-->
+
 <script src="<?php echo base_url()?>public/js/boxlayout.js"></script>
 <script src="<?php echo base_url()?>public/js/jquery.circlechart.js"></script>
+
 <script src="<?php echo base_url()?>public/js/masonry.pkgd.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.0.0/masonry.pkgd.min.js"></script>-->
+
+
 <script src="<?php echo base_url()?>public/js/imagesloaded.pkgd.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>-->
+
+
 <script src="<?php echo base_url()?>public/js/jquery.isotope.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>-->
+
+
 <script src="<?php echo base_url()?>public/js/jquery.magnific-popup.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>-->
+
+
 <script src="<?php echo base_url()?>public/js/jquery.validationEngine.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.2/jquery.validationEngine.min.js"></script>-->
+
+
 <script src="<?php echo base_url()?>public/js/jquery.validationEngine-en.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.2/languages/jquery.validationEngine-en.min.js"></script>-->
+
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm0uh_VRDYSFOnLewPnlmHrgiErw7GI6U"></script>
 <script src="<?php echo base_url()?>public/js/mapster.js"></script>
 <script src="<?php echo base_url()?>public/js/map-options.js"></script>
