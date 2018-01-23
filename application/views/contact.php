@@ -27,12 +27,13 @@
 
         <!-- Required Css Files -->
 
+        <?php include ("css.php")?>
 
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-        <?php include ("css.php")?>
+
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]-->
@@ -294,6 +295,7 @@
 
         <!-- Required Javascript Files -->
     <script src="<?php echo base_url()?>public/js/modernizr.custom.js"></script>
+
     <script src="<?php echo base_url()?>public/js/jquery.min.js"></script>
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
 
@@ -333,7 +335,7 @@
     <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm0uh_VRDYSFOnLewPnlmHrgiErw7GI6U"></script>-->
     <!--<script src="--><?php //echo base_url()?><!--public/js/mapster.js"></script>-->
     <!--<script src="--><?php //echo base_url()?><!--public/js/map-options.js"></script>-->
-    <script src="<?php echo base_url()?>public/js/main.js"></script>
+<!--    <script src="--><?php //echo base_url()?><!--public/js/main.js"></script>-->
 
     <script type="text/javascript">
         $(document).on('ready', function () {
@@ -350,3 +352,13 @@
             });
         });
     </script>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
