@@ -29,40 +29,18 @@
 
 
 
-
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/bootstrap.min.css">
-<!--    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">-->
-
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/font-awesome.css">
-<!--    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet"  crossorigin="anonymous">-->
-
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/ionicons.min.css">
-<!--	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css">-->
-
-
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/tooltip-flip.css">
-
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/magnific-popup.min.css">
-
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/validationEngine.jquery.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/style.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/responsive.css">
-
-<!--    <link rel="stylesheet" type="text/css" href="--><?php //echo base_url()?><!--public/css/allrequired.css">-->
-
-
-
-	
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <?php include ("css.php")?>
 	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<script src="<?php echo base_url()?>public/js/modernizr.custom.js"></script>
-    
+
+
     <style>
         .sidenav {
             height: 100%;
@@ -237,16 +215,16 @@
     </style>
 </head>
 
-<body onload="myFunction()" class="transparent_light only_image" >
+<body  class="transparent_light only_image" >
 
-	<div id="loader" style="background:#fff">
-		<header id="header">
-			<div id="loader_site_title">
-				<a href="#"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','100','85')); ?>" alt="TCL Logo" width="100" style="margin-top: -15px"></a>
-				<h4>Your secure digital workspace</h4>
-			</div>
-		</header>
-	</div>
+<!--	<div id="loader" style="background:#fff">-->
+<!--		<header id="header">-->
+<!--			<div id="loader_site_title">-->
+<!--				<a href="#"><img src="--><?php //echo base_url('public/images/'.thumb('public/images/tcl-logo.png','100','85')); ?><!--" alt="TCL Logo" width="100" style="margin-top: -15px"></a>-->
+<!--				<h4>Your secure digital workspace</h4>-->
+<!--			</div>-->
+<!--		</header>-->
+<!--	</div>-->
 
 	<div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -305,7 +283,7 @@
 									<h3>We Offer</h3>
 									<hr />
                                     
-                                        <ul id="blog_posts" class="grid-layout andazi_multioption_items" style="margin-bottom:0; margin-top:0; height:625.8px">
+                                        <ul id="blog_posts" class="grid-layout andazi_multioption_items" style="margin-bottom:0; margin-top:0;">
                                         <!-- post 01 -->
                                         <li class="col-sm-6 masonry_item">
                                             <div class="single_post">
@@ -375,7 +353,7 @@
                             </div>
                             
                             <div class="row" >
-                            	<div class="content_title" style="padding-bottom:0; padding-top:40px">
+                            	<div class="content_title" style="padding-bottom:0;">
 									<h3>Our Expertise & Tools</h3> 
 									<hr />
 <!--									<img class="img-responsive" src="--><?php //echo base_url()?><!--public/images/lc.jpg">-->
@@ -758,7 +736,7 @@
                                                 <!-- Works Item 01 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item webd web">
                                                     <a href="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','600','450')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
-                                                        <img src="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','165','78')); ?>" alt="" />
+                                                        <img width="165" height="78" src="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','165','78')); ?>" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
                                                                 <span class="icon ion-ios-search"></span>
@@ -769,7 +747,7 @@
                                                 <!-- Works Item 02 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item webd graphics">
                                                     <a href="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','600','450')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
-                                                        <img src="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','165','78')); ?>" alt="" />
+                                                        <img width="165" height="78" src="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','165','78')); ?>" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
                                                                 <span class="icon ion-ios-search"></span>
@@ -780,7 +758,7 @@
                                                 <!-- Works Item 03 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item webd">
                                                     <a href="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','600','450')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
-                                                        <img src="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','165','78')); ?>" alt="" />
+                                                        <img width="165" height="78" src="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','165','78')); ?>" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
                                                                 <span class="icon ion-ios-search"></span>
@@ -964,40 +942,10 @@
 						</div>
 					</div>
 					<!-- Section Main Content Wrapper End -->
-					
-					<!-- Footer Section Start -->
-					<div class="container-fluid">
-						<div class="row">
-							<div class="section_footer">
-								<div class="col-sm-6">
-									<div class="copyright">
-										<p>&copy;  Copyright - 2018&nbsp; | &nbsp;<a href="http://techcloudltd.com/" class="highlighted tooltip tooltip-effect-2">Tech Cloud Ltd.</a>&nbsp; | &nbsp;All Rights Reserved.</p>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="float-bar">
-										<div class="float-bar-inn-wrap">
-											<div class="float-bar-inn">
-												<!--Social network share icon-->
-												<div class="float-bar-social-share">
-													<button class="social-share-facebook" onclick="javascript:window.open('http://www.facebook.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook"></i></button>
-													<button class="social-share-twitter" onclick="javascript:window.open('https://twitter.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></button>
-													<button class="social-share-google-plus" onclick="javascript:window.open('https://plus.google.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></button>
-													<button class="social-share-pinterest" onclick="javascript:window.open('http://pinterest.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-pinterest"></i></button>
-													<button class="social-share-vk" onclick="javascript:window.open('http://vkontakte.ru/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-vk"></i></button>
-													<button class="social-share-linkedin" onclick="javascript:window.open('http://www.linkedin.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></button>
-												</div>
-											</div>
-											<!--End float inn wrap-->
-										</div><!--End float inn-->
-										<div class="float-bar-triggler"><i class="float-bar-triggler-inn"></i></div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Footer Section End -->
-				</div>
+
+                    <?php include ("footer.php") ?>
+
+                </div>
 			</section>
 			<!-- About Section End -->
 			
@@ -1398,39 +1346,9 @@
 					</div>
 					<!-- Section Main Content Wrapper End -->
 					
-					<!-- Footer Section Start -->
-					<div class="container-fluid">
-						<div class="row">
-							<div class="section_footer">
-								<div class="col-sm-6">
-									<div class="copyright">
-										<p>&copy;  Copyright - 2018&nbsp; | &nbsp;<a href="http://techcloudltd.com/" class="highlighted tooltip tooltip-effect-2">Tech Cloud Ltd.</a>&nbsp; | &nbsp;All Rights Reserved.</p>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="float-bar">
-										<div class="float-bar-inn-wrap">
-											<div class="float-bar-inn">
-												<!--Social network share icon-->
-												<div class="float-bar-social-share">
-													<button class="social-share-facebook" onclick="javascript:window.open('http://www.facebook.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook"></i></button>
-													<button class="social-share-twitter" onclick="javascript:window.open('https://twitter.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></button>
-													<button class="social-share-google-plus" onclick="javascript:window.open('https://plus.google.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></button>
-													<button class="social-share-pinterest" onclick="javascript:window.open('http://pinterest.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-pinterest"></i></button>
-													<button class="social-share-vk" onclick="javascript:window.open('http://vkontakte.ru/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-vk"></i></button>
-													<button class="social-share-linkedin" onclick="javascript:window.open('http://www.linkedin.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></button>
-												</div>
-											</div>
-											<!--End float inn wrap-->
-										</div><!--End float inn-->
-										<div class="float-bar-triggler go_to_top"><i class="float-bar-triggler-inn"></i></div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Footer Section End -->
-				</div>
+					<?php include ("footer.php")?>
+
+                </div>
 			</section>
 			<!-- Work Section End -->
 			
@@ -1833,40 +1751,10 @@
                         </div>
 					</div>
 					<!-- Section Main Content Wrapper End -->
-					
-					<!-- Blog Section Footer Start -->
-					<div class="container-fluid">
-						<div class="row">
-							<div class="section_footer">
-								<div class="col-sm-6">
-									<div class="copyright">
-										<p>&copy;  Copyright - 2018&nbsp; | &nbsp;<a href="http://techcloudltd.com/" class="highlighted tooltip tooltip-effect-2">Tech Cloud Ltd.</a>&nbsp; | &nbsp;All Rights Reserved.</p>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="float-bar">
-										<div class="float-bar-inn-wrap">
-											<div class="float-bar-inn">
-												<!--Social network share icon-->
-												<div class="float-bar-social-share">
-													<button class="social-share-facebook" onclick="javascript:window.open('http://www.facebook.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook"></i></button>
-													<button class="social-share-twitter" onclick="javascript:window.open('https://twitter.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></button>
-													<button class="social-share-google-plus" onclick="javascript:window.open('https://plus.google.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></button>
-													<button class="social-share-pinterest" onclick="javascript:window.open('http://pinterest.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-pinterest"></i></button>
-													<button class="social-share-vk" onclick="javascript:window.open('http://vkontakte.ru/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-vk"></i></button>
-													<button class="social-share-linkedin" onclick="javascript:window.open('http://www.linkedin.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></button>
-												</div>
-											</div>
-											<!--End float inn wrap-->
-										</div><!--End float inn-->
-										<div class="float-bar-triggler"><i class="float-bar-triggler-inn"></i></div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Blog Section Footer End -->
-				</div>
+
+                    <?php include ("footer.php") ?>
+
+                </div>
 			</section>
 			<!-- Blog Section End -->
 			
@@ -1953,40 +1841,10 @@
 						</div>
 					</div>
 					<!-- Section Main Content Wrapper End -->
-					
-					<!-- Contact Section Footer Start -->
-					<div class="container-fluid">
-						<div class="row">
-							<div class="section_footer">
-								<div class="col-sm-6">
-									<div class="copyright">
-										<p>&copy;  Copyright - 2018&nbsp; | &nbsp;<a href="http://techcloudltd.com/" class="highlighted tooltip tooltip-effect-2">Tech Cloud Ltd.</a>&nbsp; | &nbsp;All Rights Reserved.</p>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="float-bar">
-										<div class="float-bar-inn-wrap">
-											<div class="float-bar-inn">
-												<!--Social network share icon-->
-												<div class="float-bar-social-share">
-													<button class="social-share-facebook" onclick="javascript:window.open('http://www.facebook.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook"></i></button>
-													<button class="social-share-twitter" onclick="javascript:window.open('https://twitter.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></button>
-													<button class="social-share-google-plus" onclick="javascript:window.open('https://plus.google.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></button>
-													<button class="social-share-pinterest" onclick="javascript:window.open('http://pinterest.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-pinterest"></i></button>
-													<button class="social-share-vk" onclick="javascript:window.open('http://vkontakte.ru/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-vk"></i></button>
-													<button class="social-share-linkedin" onclick="javascript:window.open('http://www.linkedin.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></button>
-												</div>
-											</div>
-											<!--End float inn wrap-->
-										</div><!--End float inn-->
-										<div class="float-bar-triggler"><i class="float-bar-triggler-inn"></i></div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Contact Section Footer End -->
-				</div>
+
+                    <?php include ("footer.php") ?>
+
+                </div>
 			</section>
 			<!-- Contact Section End -->
 
@@ -2459,6 +2317,7 @@
 </body>
 </html>
 
+<script src="<?php echo base_url()?>public/js/modernizr.custom.js"></script>
 
 <script>
     function showImage(imgName) {
@@ -2581,18 +2440,18 @@
     }
 </script>
 
-<script>
-    var myVar;
-
-    function myFunction() {
-        myVar = setTimeout(showPage, 1000);
-    }
-
-    function showPage() {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("myDiv").style.display = "block";
-    }
-</script>
+<!--<script>-->
+<!--    var myVar;-->
+<!---->
+<!--    function myFunction() {-->
+<!--        myVar = setTimeout(showPage, 1000);-->
+<!--    }-->
+<!---->
+<!--    function showPage() {-->
+<!--        document.getElementById("loader").style.display = "none";-->
+<!--        document.getElementById("myDiv").style.display = "block";-->
+<!--    }-->
+<!--</script>-->
 
 
 <!-- Required Javascript Files -->
@@ -2632,9 +2491,9 @@
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.2/languages/jquery.validationEngine-en.min.js"></script>-->
 
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm0uh_VRDYSFOnLewPnlmHrgiErw7GI6U"></script>
-<script src="<?php echo base_url()?>public/js/mapster.js"></script>
-<script src="<?php echo base_url()?>public/js/map-options.js"></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm0uh_VRDYSFOnLewPnlmHrgiErw7GI6U"></script>-->
+<!--<script src="--><?php //echo base_url()?><!--public/js/mapster.js"></script>-->
+<!--<script src="--><?php //echo base_url()?><!--public/js/map-options.js"></script>-->
 <script src="<?php echo base_url()?>public/js/main.js"></script>
 
 <script type="text/javascript">
