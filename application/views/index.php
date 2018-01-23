@@ -30,15 +30,15 @@
 
 
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<!--	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">-->
 
     <?php include ("css.php")?>
 	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+    <!--[if lt IE 9]-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
 
 
     <style>
@@ -2459,7 +2459,7 @@
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
 
 
-<script src="<?php echo base_url()?>public/js/jquery.migrate.min.js"></script>
+<!--<script src="--><?php //echo base_url()?><!--public/js/jquery.migrate.min.js"></script>-->
 
 <script src="<?php echo base_url()?>public/js/bootstrap.min.js"></script>
 <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>-->

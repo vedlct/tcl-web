@@ -26,24 +26,20 @@
         <link rel="apple-touch-icon" sizes="152x152" href="<?php echo base_url()?>public/images/apple-touch-icon-152x152.png">
 
         <!-- Required Css Files -->
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/font-awesome.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/ionicons.min.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/tooltip-flip.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/magnific-popup.min.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/validationEngine.jquery.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/style.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/css/responsive.css">
+
+
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
+        <?php include ("css.php")?>
+
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-        <script src="<?php echo base_url()?>public/<?php echo base_url()?>public/<?php echo base_url()?>public/js/modernizr.custom.js"></script>
+        <!--[if lt IE 9]-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <!--[endif]-->
+
         <style>
             .sidenav {
                 height: 100%;
@@ -102,16 +98,6 @@
     </div>
 
         <span style="font-size:40px;cursor:pointer; position:absolute; z-index:9999; right:35px; top: 7px; color: #38ACEC;" onclick="openNav()">&#9776;</span>
-
-        <script>
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-            }
-        </script>
         
         <section id="contact">
             <div class="andazi_front">
@@ -153,7 +139,7 @@
                                                     <h5>Bangladesh Office</h5>
                                                 </div>
                                             </div>
-                                            <div class="info-back-box" style="background-image: url(images/contact/sub_hero.jpg);">
+                                            <div class="info-back-box" style="background-image: url(<?php echo base_url()?>public/images/contact/sub_hero.jpg);">
                                                 <div class="inner info-box">
                                                     <i class="icon ion-ios-location-outline icon_main"></i>
                                                     <p class="description">
@@ -177,7 +163,7 @@
                                                     <h5>UK Contact</h5>
                                                 </div>
                                             </div>
-                                            <div class="info-back-box" style="background-image: url(images/contact/sub_hero.jpg);">
+                                            <div class="info-back-box" style="background-image: url(<?php echo base_url()?>public/images/contact/sub_hero.jpg);">
                                                 <div class="inner info-box">
                                                     <i class="icon ion-ios-location-outline icon_main"></i>
                                                     <p class="description">
@@ -200,7 +186,7 @@
                                                     <h5>Canada Contact</h5>
                                                 </div>
                                             </div>
-                                            <div class="info-back-box" style="background-image: url(images/contact/sub_hero.jpg);">
+                                            <div class="info-back-box" style="background-image: url(<?php echo base_url()?>public/images/contact/sub_hero.jpg);">
                                                 <div class="inner info-box">
                                                     <i class="icon ion-ios-location-outline icon_main"></i>
                                                     <p class="description">
@@ -299,43 +285,68 @@
 					<!-- Footer Section End -->
             </div>
         </section>
+    </body>
+</html>
         
         
         
         
 
         <!-- Required Javascript Files -->
-        <script src="<?php echo base_url()?>public/js/jquery.min.js"></script>
-        <script src="<?php echo base_url()?>public/js/jquery.migrate.min.js"></script>
-        <script src="<?php echo base_url()?>public/js/bootstrap.min.js"></script>
-        <script src="<?php echo base_url()?>public/js/boxlayout.js"></script>
-        <script src="<?php echo base_url()?>public/js/jquery.circlechart.js"></script>
-        <script src="<?php echo base_url()?>public/js/masonry.pkgd.min.js"></script>
-        <script src="<?php echo base_url()?>public/js/imagesloaded.pkgd.min.js"></script>
-        <script src="<?php echo base_url()?>public/js/jquery.isotope.min.js"></script>
-        <script src="<?php echo base_url()?>public/js/jquery.magnific-popup.min.js"></script>
-        <script src="<?php echo base_url()?>public/js/jquery.validationEngine.js"></script>
-        <script src="<?php echo base_url()?>public/js/jquery.validationEngine-en.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm0uh_VRDYSFOnLewPnlmHrgiErw7GI6U"></script>
-        <script src="<?php echo base_url()?>public/js/mapster.js"></script>
-        <script src="<?php echo base_url()?>public/js/map-options.js"></script>
-        <script src="<?php echo base_url()?>public/js/main.js"></script>
+    <script src="<?php echo base_url()?>public/js/modernizr.custom.js"></script>
+    <script src="<?php echo base_url()?>public/js/jquery.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
 
-        <script type="text/javascript">
-            $(document).on('ready', function () {
-                $('.skills').percentcircle({
-                    animate: true,
-                    bgColor: '#ddd',
-                    coverBg: '#ddd',
-                    fillColor: '#E74E3E',
-                    cir: {
-                        'position': 'relative',
-                        'text-align': 'center',
-                        'left': '0px'
-                    }
-                });
+
+    <!--<script src="--><?php //echo base_url()?><!--public/js/jquery.migrate.min.js"></script>-->
+
+    <script src="<?php echo base_url()?>public/js/bootstrap.min.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>-->
+
+    <script src="<?php echo base_url()?>public/js/boxlayout.js"></script>
+    <script src="<?php echo base_url()?>public/js/jquery.circlechart.js"></script>
+
+    <script src="<?php echo base_url()?>public/js/masonry.pkgd.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.0.0/masonry.pkgd.min.js"></script>-->
+
+
+    <script src="<?php echo base_url()?>public/js/imagesloaded.pkgd.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>-->
+
+
+    <script src="<?php echo base_url()?>public/js/jquery.isotope.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>-->
+
+
+    <script src="<?php echo base_url()?>public/js/jquery.magnific-popup.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>-->
+
+
+    <script src="<?php echo base_url()?>public/js/jquery.validationEngine.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.2/jquery.validationEngine.min.js"></script>-->
+
+
+    <script src="<?php echo base_url()?>public/js/jquery.validationEngine-en.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.2/languages/jquery.validationEngine-en.min.js"></script>-->
+
+
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm0uh_VRDYSFOnLewPnlmHrgiErw7GI6U"></script>-->
+    <!--<script src="--><?php //echo base_url()?><!--public/js/mapster.js"></script>-->
+    <!--<script src="--><?php //echo base_url()?><!--public/js/map-options.js"></script>-->
+    <script src="<?php echo base_url()?>public/js/main.js"></script>
+
+    <script type="text/javascript">
+        $(document).on('ready', function () {
+            $('.skills').percentcircle({
+                animate: true,
+                bgColor: '#ddd',
+                coverBg: '#ddd',
+                fillColor: '#E74E3E',
+                cir: {
+                    'position': 'relative',
+                    'text-align': 'center',
+                    'left': '0px'
+                }
             });
-        </script>
-
-    </body>
-</html>
+        });
+    </script>
