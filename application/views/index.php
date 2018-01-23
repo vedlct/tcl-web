@@ -574,7 +574,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="" style="padding-bottom:0">
-                                        <h3>Order Management System (OMS)</h3>
+                                        <h3 style="overflow-y:hidden;" >Order Management System (OMS)</h3>
                                         <hr />
                                         <div id="our_works">
                                             <ul id="grid-list" class="grid-layout">
@@ -675,7 +675,7 @@
                             <div class="row">
                                <div class="col-md-6">
                                    <div class="" style="padding-bottom:0">
-                                       <h3>Production management system (PMS)</h3>
+                                       <h3 style="overflow:hidden;">Production management system (PMS)</h3>
                                        <hr />
                                        <div id="our_works">
                                        <ul id="grid-list" class="grid-layout">
@@ -729,7 +729,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="" style="padding-bottom:0">
-                                        <h3>Client Relationship Management (CRM)</h3>
+                                        <h3 style="overflow-y:hidden;" >Client Relationship Management (CRM)</h3>
                                         <hr />
                                         <div id="our_works">
                                             <ul id="grid-list" class="grid-layout">
