@@ -284,13 +284,13 @@ body.transparent_light .body_content > section:nth-child(6) {
 /* ----- Sub Hero Styles ----- */
 
 .body_content > section .andazi-close {
-	position: absolute;
+	position: fixed;
 	top: 12px;
-	right: 65px;
+	right: 80px;
 	cursor: pointer;
 	font-size:36px;
 	z-index: 100;
-	color:#333;
+	color:#38ACEC;
 	opacity: 0;
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	-webkit-transition: opacity 0.1s linear 0s;
@@ -387,9 +387,46 @@ section.andazi-expand .andazi_back {
 }
 
 
-.sub_hero_title {
-	background: #CCCCCC;
-	background-attachment:fixed;
+.web .sub_hero_title {
+	background: url(../images/web-cover.jpg);
+	background-position:center right;
+	background-size:cover;
+	height:50vh;
+	position:relative;
+   
+}
+
+.ppd .sub_hero_title {
+	background: url(../images/ppd-cover.jpg);
+	background-position:center right;
+	background-size:cover;
+	height:50vh;
+	position:relative;
+   
+}
+
+.dtp .sub_hero_title {
+	background: url(../images/dtp-cover.jpg);
+	background-position:top center;
+	background-size:cover;
+	height:50vh;
+	position:relative;
+   
+}
+
+.dtp .sub_title h3 {
+	color:#000;
+}
+
+.dtp .sub_title hr {
+	width:30px;
+	border:4px double #000;
+	border-radius:5%;
+}
+
+
+.dm .sub_hero_title {
+	background: url(../images/dm-cover.jpg);
 	background-position:top center;
 	background-size:cover;
 	height:50vh;
@@ -424,12 +461,12 @@ section.andazi-expand .andazi_back {
 	font-weight:700;
 	text-transform:uppercase;
 	letter-spacing:1.3px;
-	color:#333;
+	color:#fff;
 }
 
 .sub_title hr {
 	width:30px;
-	border:4px double #333;
+	border:4px double #fff;
 	border-radius:5%;
 }
 
