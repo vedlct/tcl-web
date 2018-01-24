@@ -349,7 +349,7 @@
 									<h3>Our Expertise & Tools</h3> 
 									<hr />
 <!--									<img class="img-responsive" src="--><?php //echo base_url()?><!--public/images/lc.jpg">-->
-									<img class="img-responsive" src="<?php echo base_url('public/images/'.thumb('public/images/lc.jpg','1752','758')); ?>">
+									<img width="1782" height="758" class="img-responsive" src="<?php echo base_url('public/images/'.thumb('public/images/lc.jpg','1752','758')); ?>">
 
                                    
 								</div>  
