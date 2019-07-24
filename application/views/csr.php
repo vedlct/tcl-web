@@ -15,7 +15,7 @@
 
     <title>Tech Cloud Ltd. | Global Information Technology Enabled Services (ITES) Provider</title>
 
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo base_url()?>/public/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="<?php echo base_url()?>/public/images/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="<?php echo base_url()?>public/images/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url()?>public/images/apple-touch-icon-72x72.png">
@@ -45,178 +45,7 @@
     <![endif]-->
     <script src="<?php echo base_url()?>public/js/modernizr.custom.js"></script>
 
-    <style>
-        .sidenav {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            right: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-        }
-
-        .sidenav a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            transition: 0.3s;
-        }
-
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
-
-        #mySidenav{z-index: 9999;}
-
-        .sidenav .closebtn {
-            position: absolute;
-            top: 0;
-            right: 200px;
-            font-size: 36px;
-            margin-left: 50px;
-        }
-
-
-        #loader_site_title {
-            position:relative;
-            width:100%;
-            height:105vh;
-            display:-webkit-inline-box;
-            display:-ms-inline-flexbox;
-            display:inline-flex;
-            -webkit-box-pack:center;
-            -ms-flex-pack:center;
-            justify-content:center;
-            -webkit-box-align:center;
-            -ms-flex-align:center;
-            align-items:center;
-        }
-
-        #loader_site_title h3 {
-            z-index:99;
-            margin-top:-5vh;
-            position:relative;
-            width:120px;
-            height:120px;
-            color:#333;
-            display:-webkit-inline-box;
-            display:-ms-inline-flexbox;
-            display:inline-flex;
-            -webkit-box-pack:center;
-            -ms-flex-pack:center;
-            justify-content:center;
-            -webkit-box-align:center;
-            -ms-flex-align:center;
-            align-items:center;
-            margin-top:0px;
-            text-transform:uppercase;
-            font-weight:700;
-            letter-spacing:1.3px;
-            font-size:72px;
-        }
-
-        #loader_site_title h3:after {
-            position:absolute;
-            content:'';
-            width:100%;
-            height:100%;
-            background:#DDDDDD;
-            left:0;
-            top:0;
-            z-index:-1;
-            -webkit-transform:rotate(45deg);
-            -ms-transform:rotate(45deg);
-            transform:rotate(45deg);
-        }
-
-
-        #loader_site_title h3 a {
-            text-decoration:none;
-            color:#fff;
-        }
-
-        #loader_site_title h4 {
-            margin-left:-225px;
-            opacity:0;
-            transition:all 0.4s ease-in-out;
-        }
-
-        header:hover #loader_site_title h4 {
-            opacity:1;
-            margin-left:50px;
-            font-weight:700;
-            letter-spacing:1.3px;
-        }
-
-        #myDiv {
-            display: none;
-            text-align: center;
-        }
-
-        /* Large Mobile :480px. */
-        @media only screen and (min-width: 480px) and (max-width: 767px) {
-
-            #loader_site_title h3 {
-                width:120px;
-                height:120px;
-                transition:all 0.3s ease-in-out;
-            }
-
-            header:hover #loader_site_title h3 {
-                width:100px;
-                height:100px;
-                font-size:52px;
-            }
-
-            #loader_site_title h4 {
-                font-size:14px;
-                margin-left:-175px;
-            }
-
-            header:hover #loader_site_title h4 {
-                margin-left:50px;
-            }
-
-        }
-
-        /* small mobile :320px. */
-        @media only screen and (max-width: 479px) {
-
-            #loader_site_title h3 {
-                width:120px;
-                height:120px;
-                transition:all 0.3s ease-in-out;
-            }
-
-            header:hover #loader_site_title h3 {
-                width:50px;
-                height:50px;
-                font-size:32px;
-            }
-
-            #loader_site_title h4 {
-                font-size:14px;
-                margin-left:-175px;
-            }
-
-            header:hover #loader_site_title h4 {
-                margin-left:20px;
-            }
-
-        }
-
-        @media screen and (max-height: 450px) {
-            .sidenav {padding-top: 15px;}
-            .sidenav a {font-size: 18px;}
-        }
-
-    </style>
+   
 </head>
 
     <body>
@@ -229,10 +58,11 @@
         <a href="<?php echo base_url()?>office-culture">Office Culture</a>
         <a href="<?php echo base_url()?>contact">Contact</a>
         <a href="<?php echo base_url()?>privacy-policy">Privacy Policy</a>
+         <a href="<?php echo base_url()?>refund-policy">Refund Policy</a>
     </div>
 
 
-        <span style="font-size:40px;cursor:pointer; position:absolute; z-index:9999; right:35px; top: 7px; color: #38ACEC;" onclick="openNav()">&#9776;</span>
+        <span style="font-size:40px;cursor:pointer; position:absolute; z-index:9999; right:35px; top: 7px; color: #fff;" onclick="openNav()">&#9776;</span>
 
         <script>
             function openNav() {
@@ -249,9 +79,10 @@
 
             <div class="andazi_back">
                 <div class="sub_hero_title" style="margin-top: -20px;">
-                    <h3 class="inside_site_title" ><img style="position:absolute; top:30px; left:30px" src="<?php echo base_url()?>public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>
+                    <h3 class="inside_site_title" ><img style="position:absolute; top:30px; left:30px" src="<?php echo base_url()?>public/images/tcl-logo-white.png" alt="TCL Logo" width="80"></h3>
                    
                     <div class="sub_title">
+                    	<img src="<?php echo base_url()?>public/images/icons/csr.png" width="50">
                         <h3>CSR</h3>
                         <hr />
                     </div>
@@ -320,12 +151,13 @@
                                     </div>
                                     <div class="row content_title designed-grid-box color-bg-panel" style="padding:0;">
                                     	<div class="col-md-6" style="background:#4CC0FF;">
-                                        	<p style="padding: 45px 10px;">Encouraging women to join our team and lead the industry, we wish
-											30% of our total employee will be female by 2020.</p>
+                                        	<p style="padding: 31.5px 10px;">Working with Bangladesh Govt. vision 2021 to achieve 5 billion usd
+														export target from IT sector thus Creating employment & positive impact
+														on country’s economy.</p>
                                         </div>
                                         <div class="col-md-6" style="background: #38ACEC">
-                                        	<p style="padding: 45px 10px;">Offering rural and under privileged individual to take part in our internship
-											program and then hiring them as full time employment.</p>
+                                        	<p style="padding: 45px 10px;">Financial contribution to the inhabitants of Northern
+														part of the country when the devastated flood hit the county in 2017.</p>
                                         </div>
                                             
                                     </div>  

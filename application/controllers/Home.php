@@ -24,4 +24,7 @@ class Home extends CI_Controller {
     public function privacypolicy(){
         $this->load->view('privacy-policy');
     }
+    public function refundpolicy(){
+        $this->load->view('refund-policy');
+    }
 }

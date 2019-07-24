@@ -15,7 +15,7 @@
 
         <title>Tech Cloud Ltd. | Global Information Technology Enabled Services (ITES) Provider</title>
 
-        <link rel="shortcut icon" href="favicon.png" type="<?php echo base_url()?>public/image/x-icon">
+        <link rel="shortcut icon" href="<?php echo base_url()?>/public/favicon.png" type="<?php echo base_url()?>public/image/x-icon">
         <link rel="apple-touch-icon" href="<?php echo base_url()?>/images/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57" href="<?php echo base_url()?>public/images/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url()?>public/images/apple-touch-icon-72x72.png">
@@ -44,48 +44,6 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
         <script src="<?php echo base_url()?>public/js/modernizr.custom.js"></script>
-        <style>
-            .sidenav {
-                height: 100%;
-                width: 0;
-                position: fixed;
-                z-index: 1;
-                top: 0;
-                right: 0;
-                background-color: #111;
-                overflow-x: hidden;
-                transition: 0.5s;
-                padding-top: 60px;
-            }
-
-            .sidenav a {
-                padding: 8px 8px 8px 32px;
-                text-decoration: none;
-                font-size: 25px;
-                color: #818181;
-                display: block;
-                transition: 0.3s;
-            }
-
-            .sidenav a:hover {
-                color: #f1f1f1;
-            }
-
-            #mySidenav{z-index: 9999;}
-
-            .sidenav .closebtn {
-                position: absolute;
-                top: 0;
-                right: 200px;
-                font-size: 36px;
-                margin-left: 50px;
-            }
-
-            @media screen and (max-height: 450px) {
-                .sidenav {padding-top: 15px;}
-                .sidenav a {font-size: 18px;}
-            }
-        </style>
         
     </head>
 
@@ -99,9 +57,10 @@
         <a href="<?php echo base_url()?>office-culture">Office Culture</a>
         <a href="<?php echo base_url()?>contact">Contact</a>
         <a href="<?php echo base_url()?>privacy-policy">Privacy Policy</a>
+         <a href="<?php echo base_url()?>refund-policy">Refund Policy</a>
     </div>
 
-        <span style="font-size:40px;cursor:pointer; position:absolute; z-index:9999; right:35px; top: 7px; color: #38ACEC;" onclick="openNav()">&#9776;</span>
+        <span style="font-size:40px;cursor:pointer; position:absolute; z-index:9999; right:35px; top: 7px; color: #fff;" onclick="openNav()">&#9776;</span>
 
         <script>
             function openNav() {
@@ -118,9 +77,10 @@
 
             <div class="andazi_back">
                 <div class="sub_hero_title" style="margin-top: -20px;">
-                    <h3 class="inside_site_title" ><img style="position:absolute; top:30px; left:30px" src="<?php echo base_url()?>public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>
+                    <h3 class="inside_site_title" ><img style="position:absolute; top:30px; left:30px" src="<?php echo base_url()?>public/images/tcl-logo-white.png" alt="TCL Logo" width="80"></h3>
                    
                     <div class="sub_title">
+                    	<img src="<?php echo base_url()?>public/images/icons/about-us.png" width="60">
                         <h3>About Us</h3>
                         <hr />
                     </div>
@@ -133,12 +93,14 @@
                             <div class="content_title about_title">
                                 <h3>A Team of Passionate Talents</h3>
                                 <hr />
-                                <p><strong>Tech Cloud Ltd.</strong> is a global Information Technology Enabled Services
+                                <p style="text-align:justify"><strong>Tech Cloud Ltd.</strong> is a global Information Technology Enabled Services
                                 (ITES) – outsource service provider. We have an excellent global
                                 market experience and with well infrastructure and up to date
                                 technology in terms of software and hardware and are capable to
                                 handle any array of clients.</p>
-                                <p style="margin:0"><strong>Tech Cloud</strong> has been selected as one of the top IT companies in Bangladesh
+                                <p style="text-align:justify">Our different services include image post production or image retouching, website design, web application development, Desktop Publishing including business flyer, brochure, leaflet, catalogue, magazine, and layout design for both print and digital media. We are comprehensively supporting are valued clients around the world with quality and cost effective way and faster turnaround time We strive to build long-term relationships with our clients by being customer-oriented and providing our clients with the highest degree of service and flexibility. If you have unique requirements, we will do our best to accommodate them.</p>
+                                <p style="text-align:justify">Established in 2013 under private limited company act of Bangladesh with an aim to serve globally <strong>Tech Cloud</strong> already achieved the trust of different clients from different region on serving quality services in terms of time and cost and have strong belief to provide better and better services in coming days.</p>
+                                <p style="margin:0; text-align:justify"><strong>Tech Cloud</strong> has been selected as one of the top IT companies in Bangladesh
                                             to create and support jobs by enhancing the export competitiveness of its ITES
                                             sector, by International Trade Center with the help of BASIS
                                             (Bangladesh Association of Software & Information Services) &
@@ -161,7 +123,7 @@
                                                     <li>
                                                         <h4>Our Vision</h4>
                                                         <span><i class="fa fa-eye" aria-hidden="true"></i></span>
-                                                        <p style="padding: 15px 10px;">To be the global leader in IT service industry delivering improved quality by being a preferred supplier selling preferred services.</p>
+                                                        <p style="padding: 15px 10px;">To be the global leader in IT service industry delivering improved quality service.</p>
                                                     </li>       
                                                 </ul>		
                                             </div>

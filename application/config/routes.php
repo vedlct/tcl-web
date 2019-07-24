@@ -55,5 +55,6 @@ $route['csr'] = 'Home/csr';
 $route['contact'] = 'Home/contact';
 $route['office-culture'] = 'Home/officeculture';
 $route['privacy-policy'] = 'Home/privacypolicy';
+$route['refund-policy'] = 'Home/refundpolicy';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

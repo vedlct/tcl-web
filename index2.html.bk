@@ -1,0 +1,1073 @@
+﻿<!DOCTYPE html>
+<!--[if IE 9]> <html class="ie9"> <![endif]-->
+<!--[if !IE]><!--><html lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Tech Cloud Ltd. | Global Information Technology Enabled Services (ITES) Provider</title>
+        <meta name="description" content="Tech Cloud Ltd. | A team of juvenile talents ready to accept the risks and challenges involved to make the journey successful together.">
+        <meta name="author" content="Eon">
+
+        <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/revslider2.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css"> 
+        <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+
+        <!-- Favicon and Apple Icons -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="images/faviconx57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/faviconx72.png">
+
+        <!--- jQuery -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+
+        <!-- Queryloader -->
+        <script src="js/queryloader2.min.js"></script>
+
+        <!-- Modernizr -->
+        <script src="js/modernizr.js"></script>
+        
+	    
+    </head>
+    <body data-spy="scroll" data-target="#main-menu">
+        <div class="geass-loader-overlay left"></div><!-- End .geass-loader-overlay left -->
+        <div class="geass-loader-overlay right"></div><!-- End .geass-loader-overlay right -->
+        <div id="wrapper">
+
+            <!-- Header / Menu Section -->
+            <header id="header" class="transparent">
+                <nav class="navbar navbar-default navbar-transparent" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand navbar-brand-img" href="index.html"><img src="images/tcl_logo.png" class="img-responsive logo-white" alt="logo"><img src="images/logo.png" class="img-responsive logo-fixed" alt="logo"></a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-right" id="main-menu">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#home">Home</a></li>
+                                <li><a href="#aboutus">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contactus">Contact</a></li>
+                                <li><a href="#joinus">Join Us</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </header>
+
+            <!-- Home Section -->
+            <section id="home" class="section">
+                <div id="revslider-container">
+                    <div id="revslider">
+                        <ul>
+                            <li data-transition="fadefromtop" data-slotamount="8" data-masterspeed="400" data-thumb="images/homeslider/main/1.jpg" data-saveperformance="on"  data-title="Welcome to Tech Cloud">
+                                <img src="images/revslider/dummy.png"  alt="slidebg1" data-lazyload="images/homeslider/main/1.jpg" data-bgposition="center center" data-duration="10000" data-bgfit="cover">
+
+                             <div class="tp-caption customin customout"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                 data-speed="1200"
+                                 data-start="1100"
+                                 data-easing="Power3.easeInOut"
+                                 data-endspeed="600"
+                                 style="z-index: 14">
+                                 <img  src="images/homeslider/main/2.png" height="400" width="350">
+                              </div>
+                                <div class="tp-caption medium_bg_asbestos sft start" data-x="230" data-y="175" data-speed="800" data-start="2500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 19.66px; color:white; font-family: 'Droid Sans', sans-serif; left: 31.5812px; top: 367.919px; visibility: visible; opacity: 0.00229797; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, -49.8851, 0, 1);">Image Post Production
+					</div>
+
+                                <div class="tp-caption medium_bg_asbestos sft start" data-x="185" data-y="245" data-speed="800" data-start="2800" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 19.66px; color:white; font-family: 'Droid Sans', sans-serif; left: 31.5812px; top: 367.919px; visibility: visible; opacity: 0.00229797; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, -49.8851, 0, 1);">Desktop Publishing
+					</div>
+
+                                <div class="tp-caption medium_bg_asbestos sft start" data-x="70" data-y="315" data-speed="800" data-start="3100" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 19.66px; color:white; font-family: 'Droid Sans', sans-serif; left: 31.5812px; top: 367.919px; visibility: visible; opacity: 0.00229797; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, -49.8851, 0, 1);">Web Design & Development
+					</div>
+                    			
+                                <div class="tp-caption medium_bg_asbestos sft start" data-x="150" data-y="385" data-speed="800" data-start="3400" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 19.66px; color:white; font-family: 'Droid Sans', sans-serif; left: 31.5812px; top: 367.919px; visibility: visible; opacity: 0.00229797; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, -49.8851, 0, 1);">Software Development
+					</div>
+                    
+                    			<div class="tp-caption medium_bg_asbestos sft start" data-x="280" data-y="455" data-speed="800" data-start="3700" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 19.66px; color:white; font-family: 'Droid Sans', sans-serif; left: 31.5812px; top: 367.919px; visibility: visible; opacity: 0.00229797; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, -49.8851, 0, 1);">Digital Marketing
+					</div>
+                                                            
+                    <div class="tp-caption skewfromright customout start"
+                                 data-x="center"
+                                 data-y="590"
+                                 data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                 data-speed="1200"
+                                 data-start="4500"
+                                 data-easing="Power3.easeInOut"
+                                 data-endspeed="600"
+                                 style="z-index: 14; ">
+                                 <img  src="images/homeslider/main/3.png" width="100%">
+                              </div>
+                              
+                              <div class="tp-caption medium_bg_orange sfr customout start" data-x="800"  data-y="300" data-voffset="-50" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="500" data-start="6000" data-easing="Back.easeOut" data-endspeed="500" data-endeasing="Power4.easeIn" data-captionhidden="on" style="z-index: 21; min-height: 0px; min-width: 0px; line-height: 20px; border-width: 0px; margin: 0px; padding: 10px;  font-family:'expansiva'; color:white; letter-spacing: 0px; font-size: 20px; left: 1093.5px; top: 410px; visibility: visible; opacity: 0; transform: translate3d(0px, 0px, 0px) scale(0.75, 0.75); transform-origin: 50% 50% 0px;">PRINT
+					</div>
+                    
+                    <div class="tp-caption medium_bg_asbestos sft start" data-x="895" data-y="307" data-speed="800" data-start="6500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 19.66px; color:white; font-family:'expansiva'; left: 31.5812px; top: 367.919px; visibility: visible; opacity: 0.00229797; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, -49.8851, 0, 1);">-
+					</div>
+                    
+                    <div class="tp-caption medium_bg_orange sfr customout start" data-x="915"  data-y="300" data-voffset="-50" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="500" data-start="7000" data-easing="Back.easeOut" data-endspeed="500" data-endeasing="Power4.easeIn" data-captionhidden="on" style="z-index: 21; min-height: 0px; min-width: 0px; line-height: 20px; border-width: 0px; margin: 0px; padding: 10px;  font-family:'expansiva'; color:white; letter-spacing: 0px; font-size: 20px; left: 1093.5px; top: 410px; visibility: visible; opacity: 0; transform: translate3d(0px, 0px, 0px) scale(0.75, 0.75); transform-origin: 50% 50% 0px;">DIGITAL
+					</div>
+                    
+                    <div class="tp-caption medium_bg_asbestos sft start" data-x="1035" data-y="307" data-speed="800" data-start="7500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 19.66px; color:white; font-family:'expansiva'; left: 31.5812px; top: 367.919px; visibility: visible; opacity: 0.00229797; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, -49.8851, 0, 1);">-
+					</div>
+                    
+                    <div class="tp-caption medium_bg_orange sfr customout start" data-x="right"  data-y="300" data-voffset="-50" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="500" data-start="8000" data-easing="Back.easeOut" data-endspeed="500" data-endeasing="Power4.easeIn" data-captionhidden="on" style="z-index: 21; min-height: 0px; min-width: 0px; line-height: 20px; border-width: 0px; margin: 0px; padding: 10px; font-family:'expansiva'; color:white; letter-spacing: 0px; font-size: 20px; left: 1093.5px; top: 410px; visibility: visible; opacity: 0; transform: translate3d(0px, 0px, 0px) scale(0.75, 0.75); transform-origin: 50% 50% 0px;">WEB
+					</div>
+           
+                            </li>
+                            
+                            <li data-transition="fadefrombottom" data-slotamount="8" data-masterspeed="400" data-thumb="images/homeslider/ppd/1.jpg" data-saveperformance="on"  data-title="Image Post Production">
+                                <img src="images/revslider/dummy.png"  alt="slidebg1" data-lazyload="images/homeslider/ppd/1.jpg" data-bgposition="center center" data-duration="4800" data-bgfit="cover">
+
+                                <div class="tp-caption customin customout"
+                                    data-x="center"
+                                    data-y="185"
+                                    data-customin="x:0;y:0;z:0;rotationX:-90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-speed="1100"
+                                    data-start="900"
+                                    data-easing="Power3.easeInOut"
+                                    data-endspeed="600"
+                                    style="z-index: 10; font-size:50px; color:#38ACEC; font-family:'expansiva';">Image
+                                </div>
+                                
+                                <div class="tp-caption customin customout"
+                                    data-x="center"
+                                    data-y="center"
+                                    data-customin="x:0;y:0;z:0;rotationX:-90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-speed="1100"
+                                    data-start="900"
+                                    data-easing="Power3.easeInOut"
+                                    data-endspeed="600"
+                                    style="z-index: 10; font-size:50px; color:white; font-family:'expansiva';">Post Production
+                                </div>
+                               
+                                <div class="tp-caption customin customout"
+                                    data-x="1100"
+                                    data-y="center"
+                                    data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-speed="800"
+                                    data-start="1400"
+                                    data-easing="Power3.easeInOut"
+                                    data-endspeed="600"
+                                    style="z-index: 14">
+                                        <img  src="images/homeslider/ppd/2.png" width="1000">
+                                </div>
+                                
+                                <div class="tp-caption medium_bg_asbestos skewfromright start" data-x="1110" data-hoffset="-50" data-y="100" data-speed="800" data-start="2000" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 15; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 16px; color:white; font-family:'expansiva'; left: 459.419px; top: 399.5px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, -0.99619, 0.08715, 0, 0, 0, 0, 1, -0.00166, 1598, 0, 0, 1);"><b>Key Features</b>
+					</div>
+                    
+                    <div class="tp-caption medium_bg_asbestos skewfromright start" data-x="1125" data-hoffset="-50" data-y="130" data-speed="800" data-start="2500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 15; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 20px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 13px; color:white; font-family: 'Droid Sans', sans-serif; left: 459.419px; top: 399.5px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, -0.99619, 0.08715, 0, 0, 0, 0, 1, -0.00166, 1598, 0, 0, 1);">Regular / Bulk Quantity<br>Processsing Complex Requirement<br>Industry Standard Quality<br>Faster Turn Arround<br>Affordable Price
+					</div>
+                    
+                    <div class="tp-caption medium_bg_asbestos skewfromright start" data-x="1110"  data-y="300" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 15; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 12px; color:white; font-family:'expansiva'; left: 459.419px; top: 399.5px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, -0.99619, 0.08715, 0, 0, 0, 0, 1, -0.00166, 1598, 0, 0, 1);"><b>Clients We Work With</b>
+					</div>
+                    
+                    <div class="tp-caption medium_bg_asbestos skewfromright start" data-x="1125"  data-y="330" data-speed="800" data-start="4000" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 15; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 20px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 13px; color:white; font-family: 'Droid Sans', sans-serif; left: 459.419px; top: 399.5px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, -0.99619, 0.08715, 0, 0, 0, 0, 1, -0.00166, 1598, 0, 0, 1);">E-Commerce Online Shop<br>Fashion Icon<br>Look Book / Catalogue<br>Advertising<br>Product Photography<br>Commercial Photography
+					</div>
+                    
+                            </li>
+                            
+                            <li data-transition="fadefrombottom" data-slotamount="8" data-masterspeed="400" data-thumb="images/homeslider/web/1.jpg" data-saveperformance="on"  data-title="Web Design & Development">
+                                <img src="images/revslider/dummy.png"  alt="slidebg1" data-lazyload="images/homeslider/web/1.jpg" data-bgposition="center center" data-duration="4800" data-bgfit="cover">
+
+
+								<div class="tp-caption medium_bg_asbestos lft start"
+                                    data-x="center"
+                                    data-y="-100"
+                                    data-speed="1200"
+                                    data-start="2000"
+                                    data-easing="Power4.easeOut"
+                                    data-endspeed="600"
+                                    style="z-index: 14">
+                                        <img  src="images/homeslider/web/2.png" width="25%">
+                                </div>
+                                
+                                <div class="tp-caption medium_bg_asbestos skewfromright start" data-x="center"  data-y="40" data-speed="800" data-start="3000" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 15; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 40px; color:#5C5858; font-family:'expansiva'; left: 459.419px; top: 399.5px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, -0.99619, 0.08715, 0, 0, 0, 0, 1, -0.00166, 1598, 0, 0, 1);">Responsive <span style="color:#38ACEC">Design</span> Website<br>
+                                			
+					</div>
+                    
+                    			<div class="tp-caption medium_bg_asbestos sfb start" data-x="center" data-y="90" data-speed="800" data-start="4000" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-size: 20px; left: 515.419px; top: 304.581px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">Flat UI Design For Your Personal / Business Projects
+					</div>
+
+
+                                
+                                
+                            </li>
+                            
+                             <li data-transition="fadefromtop" data-slotamount="8" data-masterspeed="400" data-thumb="images/homeslider/dtp/1.jpg" data-saveperformance="on"  data-title="Desktop Publishing">
+                                <img src="images/revslider/dummy.png"  alt="slidebg1" data-lazyload="images/homeslider/dtp/1.jpg" data-bgposition="center center" data-duration="5500" data-bgfit="cover">
+                                
+                                <div class="tp-caption medium_bg_asbestos sfl start" data-x="450" data-y="30" data-speed="500" data-start="2000" data-easing="Power1.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-family: 'Droid Sans', sans-serif; font-size: 25px; color:#38ACEC; left: 31.5812px; top: 367.744px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);"><b><i>Design</i></b>
+					</div>            
+                    
+                    <div class="tp-caption medium_bg_asbestos sfl start" data-x="532" data-y="30" data-speed="500" data-start="2300" data-easing="Power1.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-family: 'Droid Sans', sans-serif; font-size: 25px; color:#38ACEC; left: 31.5812px; top: 367.744px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);"><b><i>is</i></b>
+					</div>
+                    
+                    <div class="tp-caption medium_bg_asbestos sfl start" data-x="557" data-y="30" data-speed="500" data-start="2600" data-easing="Power1.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-family: 'Droid Sans', sans-serif; font-size: 25px; color:#38ACEC; left: 31.5812px; top: 367.744px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);"><b><i>How</i></b>
+					</div>
+                    
+                    <div class="tp-caption medium_bg_asbestos sfl start" data-x="614" data-y="30" data-speed="500" data-start="2900" data-easing="Power1.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-family: 'Droid Sans', sans-serif; font-size: 25px; color:#38ACEC; left: 31.5812px; top: 367.744px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);"><b><i>it</i></b>
+					</div>
+                    
+                    <div class="tp-caption medium_bg_asbestos sfl start" data-x="639" data-y="30" data-speed="500" data-start="3200" data-easing="Power1.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-family: 'Droid Sans', sans-serif; font-size: 25px; color:#38ACEC; left: 31.5812px; top: 367.744px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);"><b><i>Works</i></b>
+					</div>       
+                                                           
+                    			<div class="tp-caption medium_bg_asbestos skewfromleft start" data-x="center" data-y="550" data-speed="800" data-start="4400" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-family:'expansiva'; font-size: 40px; left: 31.5812px; top: 336.162px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);"><b>Print & <span style="color:#38ACEC">Digital</span></b>
+					</div>
+                    
+                    <div class="tp-caption medium_bg_asbestos skewfromright start" data-x="center" data-y="610" data-speed="800" data-start="4900" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 13px; border-width: 0px; margin: 0px; padding: 6px; letter-spacing: 0px; font-family:'expansiva'; font-size: 40px; left: 31.5812px; top: 336.162px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);"><b><span style="color:#38ACEC">Content Design</span> & Development</b>
+					</div>
+
+                                
+
+                            </li>
+                            
+                            <li data-transition="fadefrombottom" data-slotamount="8" data-masterspeed="400" data-thumb="banners/LC/main_banner.jpg" data-saveperformance="on"  data-title="Digital Marketing">
+                                <img src="images/revslider/dummy.png"  alt="slidebg1" data-lazyload="images/homeslider/dm/1.jpg" data-bgposition="center center" data-duration="4800" data-bgfit="cover">
+
+                                <div class="tp-caption rev-subtitle bigger fancy customin customout"
+                                    data-x="left"
+                                    data-y="140"
+                                    data-customin="x:0;y:0;z:0;rotationX:-90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-speed="1100"
+                                    data-start="900"
+                                    data-easing="Power3.easeInOut"
+                                    data-endspeed="600"
+                                    style="z-index: 10; font-family:'expansiva';">Digital <span class="yellow-color">Marketing</span> Solutions
+                                </div>
+
+                                <div class="tp-caption rev-title bigger customin customout"
+                                    data-x="left"
+                                    data-y="220"
+                                    data-speed="1100"
+                                    data-customin="x:0;y:0;z:0;rotationX:-90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-start="2500"1500
+                                    data-easing="Power3.easeInOut"
+                                    data-endspeed="600"
+                                    style="z-index: 6; font-family: 'Droid Sans', sans-serif;">Reach to your target customer
+                                </div>
+
+                                <div class="tp-caption customin customout"
+                                    data-x="520"
+                                    data-y="150"
+                                    data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-speed="1200"
+                                    data-start="1500"
+                                    data-easing="Power3.easeInOut"
+                                    data-endspeed="600"
+                                    style="z-index: 14">
+                                        <img  src="images/homeslider/dm/2.png" width="50%">
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- End revslider -->
+                </div><!-- End revslider-container -->
+            </section><!-- End #home -->  
+            
+            <!-- About Us Section -->
+            <section id="aboutus" class="section">
+                <header class="container text-center">                 
+                    <h1 class="section-title fancy">About Us</h1>
+                    <p class="section-desc">
+                        A team of juvenile talents ready to accept the risks and challenges involved to make the journey successful together.
+                    </p>
+                </header>
+
+                <div class="lg-margin visible-xs clearfix"></div><!-- space -->
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 ">
+                            <div class="contact-info-box box yellow text-center wow bounceInLeft">
+                                <h3>Our Bio</h3>
+                                <span class="contact-info-icon yellowbg"><i class="fa fa-file-text-o"></i></span>
+                               <p> With a team of dedicated and hardworking professionals, Tech Cloud Ltd. successfully delivering industry standard and flexible services to clients in different business sector of IT industry including e-commerce image processing, desktop publishing, graphic design, logo design, website development, software development etc.
+</p>
+                            </div><!-- End .contact-info-box -->
+                        </div><!-- End .col-md-4 -->
+                    
+                        <div class="col-md-6 col-sm-6">
+                            <div class="contact-info-box box lightblue text-center wow bounceInRight">
+                                <h3>Our Vision</h3>
+                                <span class="contact-info-icon lightbluebg"><i class="fa fa-eye"></i></span>
+                                 <p>To be the global leader in IT service industry delivering improved quality by being a preferred supplier selling preferred services.
+</p>
+                            </div><!-- End .contact-info-box -->
+                        </div><!-- End .col-md-4 -->
+                    </div><!-- End .row -->
+                    
+                    <div class="row" style="margin-top:50px">
+						<div class="col-md-2">
+                        	<img src="images/service-proposal-icons/3.png" alt="" class="img-responsive wow fadeInUpBig">
+                        </div>  
+                        <div class="col-md-2">
+                        	<img src="images/service-proposal-icons/4.png" alt="" class="img-responsive wow fadeInUpBig">
+                        </div>
+                        <div class="col-md-2">
+                        	<img src="images/service-proposal-icons/5.png" alt="" class="img-responsive wow fadeInUpBig">
+                        </div>
+                        <div class="col-md-2" style="text-align:center">
+                        	<img src="images/service-proposal-icons/6.png" alt="" class="img-responsive wow fadeInUpBig">
+                        </div>
+                        <div class="col-md-2">
+                        	<img src="images/service-proposal-icons/1.png" alt="" class="img-responsive wow fadeInUpBig">
+                        </div> 	 
+                        <div class="col-md-2">
+                        	<img src="images/service-proposal-icons/2.png" alt="" class="img-responsive wow fadeInUpBig">
+                        </div>                 
+                    </div>                   
+                </div><!-- End .container -->
+
+                <div class="container img-container small">
+                 <div class="lg-margin2x"></div>
+                            <div class="text-center">
+                                <a href="#" style="font-family:'expansiva';" class="btn btn-lg btn-lightblue wow tada">How We Work</a>
+                            </div>
+                    <div class="row" style="margin-top:20px">
+                        <div class="col-sm-12">
+                            <img src="images/geass2.png" alt="Geass" class="img-responsive wow fadeInUpBig">
+                        </div><!-- End .col-md-8 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+            </section>
+            
+            <!-- Skills Section -->
+            <div class="skills-container background-new parallax" data-stellar-background-ratio="0.15">
+                <div class="overlaybg overlay-pattern1"></div><!-- End .overlaybg -->
+                <div class="parallax-content">
+                        <div class="container">
+                            <header class="parallax-header clearfix text-center">
+                                <h2 class="parallax-title fancy">Our Experience</h2>
+                                <p class="parallax-desc">Some of our lucky numbers, our experiences. How good we are and What do we offer...</p>
+                            </header>
+                            <div class="row">
+
+                                <div class="col-md-3 col-sm-6 col-xs-6 circle-progress-container">
+                                    <div class="circle-progress progress-animate">
+                                        <input type="text" class="knob" data-width="160"  data-height="160" data-readOnly="true" data-fgColor="#f8d61b" data-animateto="92" data-thickness=".06" data-animatespeed="1000">
+                                    </div><!-- End .circle-progress -->
+                                    <h3 class="progress-title">Image Post Production</h3>
+                                </div><!-- End .col-md-3 -->
+
+                                <div class="col-md-3 col-sm-6 col-xs-6 circle-progress-container">
+                                    <div class="circle-progress progress-animate">
+                                        <input type="text" class="knob" data-width="160"  data-height="160" data-readOnly="true" data-fgColor="#1bc4f5" data-animateto="86" data-thickness=".06" data-animatespeed="1400">
+                                    </div><!-- End .circle-progress -->
+                                    <h3 class="progress-title">Web Design & Development</h3>
+                                </div><!-- End .col-md-3 -->
+
+                                <div class="lg-margin visible-sm visible-xs hidden-xss clearfix"></div><!-- space -->
+
+                                <div class="col-md-3 col-sm-6 col-xs-6 circle-progress-container">
+                                    <div class="circle-progress progress-animate">
+                                        <input type="text" class="knob" data-width="160"  data-height="160" data-readOnly="true" data-fgColor="#c90e31" data-animateto="90" data-thickness=".06" data-animatespeed="1800">
+                                    </div><!-- End .circle-progress -->
+                                    <h3 class="progress-title">Desktop Publishing</h3>
+                                </div><!-- End .col-md-3 -->
+
+                                <div class="col-md-3 col-sm-6 col-xs-6 circle-progress-container">
+                                    <div class="circle-progress progress-animate">
+                                        <input type="text" class="knob" data-width="160"  data-height="160" data-readOnly="true" data-fgColor="#09d33d" data-animateto="82" data-thickness=".06" data-animatespeed="2200">
+                                    </div><!-- End .circle-progress -->
+                                    <h3 class="progress-title">Digital Marketing</h3>
+                                </div><!-- End .col-md-3 -->
+                                
+                            </div><!-- End .row -->
+                        </div><!-- End .container -->
+                </div><!-- End parallax-content -->
+            </div><!-- End .skills-container -->
+
+            <!-- Services Section -->
+            <section id="services" class="section">
+                <header class="container text-center">
+                    <h1 class="section-title fancy">Services</h1>
+                    <p class="section-desc">
+                        What we offer is our best. We promise you that we will do what we are best at. Check out our services and find the one you want...
+                    </p>
+                </header>
+
+                <div id="our-services">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="service box yellow wow fadeInUp" data-wow-delay="0.25s">
+                                    <div class="service-header">
+                                        <span class="service-icon yellowbg"><i class="fa fa-photo"></i></span>
+                                        <h2>Image Post Production</h2>
+                                    </div><!-- End .services-header -->
+                                    <p style="text-align:justify"> We offer regular or bulk quantity image processing of all types including simple clipping, masking, shadowing, ghost retouching, re-coloring etc.</p>
+                                	<a href="#openModal-1" class="btn btn-danger">View Details</a>
+                                </div><!-- End .service -->
+                            </div><!-- End .col-md-3 -->
+                                                     
+                            <div id="openModal-1" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h2>Image Post Production</h2>
+                                    <h5>We process images for Web ready or Print ready.</h5>
+                                    <span class="tcl_name" style="line-height:300%">Our General Services</span>
+                                    <ul style="list-style-type:none; margin-left:20px">                                                            					<li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Image Manipulation</li>
+                                				<li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Neck editing</li>
+                                				<li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Mulit path</li> 
+                            					<li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Color matching</li>
+                                                <li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Graphic design</li>
+                                                <li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Retouching</li>
+                                				<li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Skin/Beauty</li>
+                                				<li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Look book/Editorial</li> 
+                            					<li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Product retouch</li>
+                                                <li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Natural Shadow</li>
+                                                <li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Drop Shadow</li>
+                                				<li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Reflection shadow</li>
+                                				<li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Channel Masking</li> 
+                            					<li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Layer Masking</li>
+                                                <li><i class="fa fa-share-square-o"></i>&nbsp;&nbsp;Clipping Path</li>
+                                            </ul>  
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-3 col-sm-6">
+                                <div class="service box orange wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="service-header">
+                                        <span class="service-icon orangebg"><i class="fa fa-desktop"></i></i></span>
+                                        <h2>Desktop Publishing</h2>
+                                    </div><!-- End .services-header -->
+                                    <p style="text-align:justify">We are specializes in delivering industry standard and flexible services to client including page formatting, layout design, business identity, brochure, flyer, vector, illustration, infographic, multi lingual adaptation of both offline and online digital production</p>
+                                	<a href="#openModal-2" class="btn btn-danger">View Details</a>
+                                </div><!-- End .service -->
+                            </div><!-- End .col-md-3 -->
+                            
+                            <div id="openModal-2" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h2>Desktop Publishing</h2>
+                                    <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+                                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="col-md-3 col-sm-6">
+                                <div class="service box lightblue wow fadeInUp" data-wow-delay="0.75s">
+                                    <div class="service-header">
+                                        <span class="service-icon lightbluebg"><i class="fa fa-file-code-o"></i></span>
+                                        <h2>Web Design & Development</h2>
+                                    </div><!-- End .services-header -->
+                                    <p style="text-align:justify">We provide turnkey solutions from front-end design & development to backend programming and maintenance.Our team is fully capable of complete the full development cycle including requirements gathering, UX design, content aggregation, feature and functions development etc.</p>
+                                	<a href="#openModal-3" class="btn btn-danger">View Details</a>
+                                </div><!-- End .service -->
+                            </div><!-- End .col-md-3 -->
+                            
+                            <div id="openModal-3" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h2>Web Design & Development</h2>
+                                    <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+                                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="col-md-3 col-sm-6">
+                                <div class="service box blue wow fadeInUp" data-wow-delay="1s">
+                                    <div class="service-header">
+                                        <span class="service-icon bluebg"><i class="fa fa-cloud"></i></span>
+                                        <h2>e-Commerce</h2>
+                                    </div><!-- End .services-header -->
+                                    <p style="text-align:justify">We are offering full functional e-commerce platform based on presta shop and ocommerce including  advance product search, shopping cart, payment integration, order delivery status management, Admin panel, SEO etc.</p>
+                                	<a href="#openModal-4" class="btn btn-danger">View Details</a>
+                                </div><!-- End .service -->
+                            </div><!-- End .col-md-3 -->
+                            
+                            <div id="openModal-4" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h2>e-Commerce</h2>
+                                    <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+                                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+                                </div>
+                            </div>
+                        </div><!-- End .row -->
+
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="service box red wow fadeInUp" data-wow-delay="0.25s">
+                                    <div class="service-header">
+                                        <span class="service-icon redbg"><i class="fa fa-eye"></i></span>
+                                        <h2>Digital Marketing</h2>
+                                    </div><!-- End .services-header -->
+                                    <p style="text-align:justify">We'll improve your organic visibility, get people engaged with your brand and monitor results. Our social media team helps our clients promote themselves successfully while providing then with digital platform that allows their entire organization to advocate as one.</p>
+                                	<a href="#openModal-5" class="btn btn-danger">View Details</a>
+                                </div><!-- End .service -->
+                            </div><!-- End .col-md-3 -->
+                            
+                            <div id="openModal-5" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h2>Digital Marketing</h2>
+                                    <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+                                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="col-md-3 col-sm-6">
+                                <div class="service box purple wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="service-header">
+                                        <span class="service-icon purplebg"><i class="fa fa-mobile"></i></span>
+                                        <h2>Mobile Marketing</h2>
+                                    </div><!-- End .services-header -->
+                                    <p style="text-align:justify">Mobilize your business by integrating into our mobile services cloud. We provide powerful API’s, professional database solution and dedicated stand-alone web and desktop applications for messaging and voice call services.</p>
+                                	<a href="#openModal-6" class="btn btn-danger">View Details</a>
+                                </div><!-- End .service -->
+                            </div><!-- End .col-md-3 -->
+                            
+                            <div id="openModal-6" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h2>Mobile Marketing</h2>
+                                    <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+                                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="col-md-3 col-sm-6">
+                                <div class="service box lightgreen wow fadeInUp" data-wow-delay="0.75s">
+                                    <div class="service-header">
+                                        <span class="service-icon lightgreenbg"><i class="fa fa-sitemap"></i></span>
+                                        <h2>Domain & Hosting</h2>
+                                    </div><!-- End .services-header -->
+                                    <p style="text-align:justify">Choose your name and create an exclusive online presence by building website. We are providing priority service for domain registration and host in fully secured cloud.</p>
+                                	<a href="#openModal-7" class="btn btn-danger">View Details</a>
+                                </div><!-- End .service -->
+                            </div><!-- End .col-md-3 -->
+                            
+                            <div id="openModal-7" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h2>Domain & Hosting</h2>
+                                    <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+                                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="col-md-3 col-sm-6">
+                                <div class="service box green wow fadeInUp" data-wow-delay="1s">
+                                    <div class="service-header">
+                                        <span class="service-icon greenbg"><i class="fa fa-support"></i></span>
+                                        <h2>Software Development</h2>
+                                    </div><!-- End .services-header -->
+                                    <p style="text-align:justify"> Tech cloud has a team of building custom web application platform. we are mostly expert in php and java, we have hands on experience building sales CRM, production management system, online training platform etc. </p>
+                                	<a href="#openModal-8" class="btn btn-danger">View Details</a>
+                                </div><!-- End .service -->
+                            </div><!-- End .col-md-3 -->
+                            
+                            <div id="openModal-8" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h2>Software Development</h2>
+                                    <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+                                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+                                </div>
+                            </div>
+                        </div><!-- End .row -->
+                    </div><!-- Ênd .container -->
+
+                    <div class="sm-margin"></div><!-- space -->
+
+                    <div class="container text-center">
+                        <a href="#" class="btn btn-lg btn-yellow wow tada">More Services</a>
+                    </div>
+                </div><!-- End #our-services -->
+            </section>
+            
+            <!-- Count Parallax Section -->
+            
+            <header class="container text-center">
+                    <h1 class="section-title fancy">Life at <span style="color:#38ACEC">Tech Cloud</span></h1>
+                </header>
+                
+                <div class="lg-margin2x"></div>
+                 
+                    <div class="container-fluid">
+                        <div class="row">
+							<img src="images/team/team.jpg" width="100%">
+                            
+
+                        </div><!-- End .row -->
+                        
+       
+                    </div><!-- End .container -->
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="section padding-bottom">
+                <header class="container text-center">
+                    <h1 class="section-title fancy">Portfolio</h1>
+                    <p class="section-desc">
+                        Check out our portfolio. We love to make creative and modern things. Explore our portfolio before hiring us...
+                    </p>
+                </header>
+
+                <ul id="portfolio-filter" class="container text-center clearfix ">
+                    <li><a href="#" class="active" data-filter="*">All</a></li>
+                    <li><a href="#" data-filter=".ppd">Image Post Production</a></li>
+                    <li><a href="#" data-filter=".dtp">Desktop Publishing</a></li>
+                    <li><a href="#" data-filter=".web">Web Design & Development</a></li>
+                </ul><!-- End .portfolio-filter -->
+
+                <div id="portfolio-single-content" class="container"></div><!-- End #portfolio-single-content -->
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="portfolio-wrapper">
+                                <ul id="portfolio-item-container" class="clearfix" data-maxcolumn="4" data-animationclass="fadeInUpBig">
+                                
+                                 <li class="portfolio-item animate-item ppd" data-animate-time="80">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/tcl_portfolio/ghost_mannequin/item_1.png" alt="item 1">
+                                            <div class="portfolio-overlay lightbluebg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/ghost_mannequin.html" title="Ghost Mannequin" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Ghost Mannequin">Ghost Mannequin</a></h2>
+                                                        <p class="portfolio-tags">
+                                                        <a href="#" title="Image Post Production">Image Post Production</a>,
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                    
+                                    <li class="portfolio-item animate-item ppd" data-animate-time="160">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/tcl_portfolio/coloring/item_8.jpg" alt="item 1">
+                                            <div class="portfolio-overlay lightbluebg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/coloring.html" title="Coloring" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Coloring">Coloring</a></h2>
+                                                        <p class="portfolio-tags">
+                                                            <a href="#" title="Image Post Production">Image Post Production</a>
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                    <li class="portfolio-item animate-item ppd" data-animate-time="240">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/tcl_portfolio/wrinkle_removing/item_2.jpg" alt="item 1">
+                                            <div class="portfolio-overlay yellowbg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/wrinkle_removing.html" title="Wrinkle Removing" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Wrinkle Removing">Wrinkle Removing</a></h2>
+                                                        <p class="portfolio-tags">
+                                                            <a href="#" title="Image Post Production">Image Post Production</a>
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                    <li class="portfolio-item animate-item ppd" data-animate-time="320">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/tcl_portfolio/hair_masking/item_2.jpg" alt="item 1">
+                                            <div class="portfolio-overlay redbg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/hair_masking.html" title="Hair Masking" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Hair Masking">Hair Masking</a></h2>
+                                                        <p class="portfolio-tags">
+                                                            <a href="#" title="Image Post Production">Image Post Production</a>
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                    <li class="portfolio-item animate-item ppd" data-animate-time="400">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/tcl_portfolio/jewelry_retouching/item_2.jpg" alt="item 1">
+                                            <div class="portfolio-overlay lightgreenbg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/jewelry_retouching.html" title="Jewelry Retouching" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Jewelry Retouching">Jewelry Retouching</a></h2>
+                                                        <p class="portfolio-tags">
+                                                            <a href="#" title="Image Post Production">Image Post Production</a>
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                    <li class="portfolio-item animate-item ppd" data-animate-time="480">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/tcl_portfolio/product_retouching/item_1.jpg" alt="item 1">
+                                            <div class="portfolio-overlay bluebg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/product_retouching.html" title="Product Retouching" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Product Retouching">Product Retouching</a></h2>
+                                                        <p class="portfolio-tags">
+                                                            <a href="#" title="Image Post Production">Image Post Production</a>
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                    <li class="portfolio-item animate-item ppd" data-animate-time="560">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/tcl_portfolio/reflection/item_2.jpg" alt="item 1">
+                                            <div class="portfolio-overlay greenbg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/reflection.html" title="Reflection" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Reflection">Reflection</a></h2>
+                                                        <p class="portfolio-tags">
+                                                            <a href="#" title="Image Post Production">Image Post Production</a>
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                    <li class="portfolio-item animate-item ppd" data-animate-time="640">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/tcl_portfolio/shadow/item_2.jpg" alt="item 1">
+                                            <div class="portfolio-overlay orangebg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/shadow.html" title="Shadow" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Shadow">Shadow</a></h2>
+                                                        <p class="portfolio-tags">
+                                                            <a href="#" title="Image Post Production">Image Post Production</a>
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                    <li class="portfolio-item animate-item ppd" data-animate-time="720">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/tcl_portfolio/skin_retouching/item_4.jpg" alt="item 1">
+                                            <div class="portfolio-overlay purplebg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/skin_retouching.html" title="Skin Retouching" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Skin Retouching">Skin Retouching</a></h2>
+                                                        <p class="portfolio-tags">
+                                                            <a href="#" title="Image Post Production">Image Post Production</a>
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                    
+                                    <li class="portfolio-item animate-item ppd" data-animate-time="800">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/tcl_portfolio/back_ground_retouch/item_1.jpg" alt="item 1">
+                                            <div class="portfolio-overlay yellowbg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/back_ground_retouch.html" title="Back Ground Retouch" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Back Ground Retouch">Back Ground Retouch</a></h2>
+                                                        <p class="portfolio-tags">
+                                                            <a href="#" title="Image Post Production">Image Post Production</a>
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                    
+                                    <li class="portfolio-item animate-item design web" data-animate-time="880">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/portfolio/item11.jpg" alt="item 11">
+                                            <div class="portfolio-overlay lightgreenbg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/project11.html" title="Nam facilisis condimentum" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Coming Soon">Coming Soon</a></h2>
+                                                        <p class="portfolio-tags">
+                                                        <a href="#" title="Web Design & Development">Web Design & Development</a>
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                    <li class="portfolio-item animate-item photography dtp" data-animate-time="960">
+                                        <div class="portfolio-item-wrapper">
+                                            <img src="images/portfolio/item12.jpg" alt="item 12">
+                                            <div class="portfolio-overlay purplebg">
+                                                <div class="vcenter-container">
+                                                    <div class="vcenter">
+                                                        <a href="projects/project12.html" title="Nam facilisis condimentum" class="open-btn"></a>
+                                                        <h2 class="portfolio-title"><a href="single-portfolio.html" title="Coming Soon">Coming Soon</a></h2>
+                                                        <p class="portfolio-tags">
+                                                        <a href="#" title="Desktop Publishing">Desktop Publishing</a>
+                                                        </p>
+                                                    </div><!-- End .portfolio-overlay -->
+                                                </div><!-- End .portfolio-item-wrapper -->
+                                            </div><!-- End .portfolio-overlay -->
+                                        </div><!-- End .portfolio-item-wrapper -->
+                                    </li>
+                                </ul><!-- End #portfolio-item-container -->
+                            </div><!-- End .portfolio-wrapper -->
+                        </div><!-- End .col-sm-12 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+            </section>
+
+           
+
+            <!-- Contact Us Section -->
+            <section id="contactus" class="section">
+                <header class="container text-center">
+                    <h1 class="section-title fancy">Contact Us</h1>
+                    <p class="section-desc">
+                        Get in touch with us. We want to hear from you. Let's discuss how can we provide better support and services...
+                    </p>
+                </header>
+                <div id="map"></div><!-- End #map -->
+
+                <div class="lg-margin2x"></div><!-- space -->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="contact-info-box box yellow text-center">
+                                <h3>Addresses</h3>
+                                <span class="contact-info-icon yellowbg"><i class="fa fa-map-marker"></i></span>
+                                <ul class="contact-info-list">
+                                    <li>House # 379, Road # 06, Baridhara DOHS,</li>
+                                    <li>Dhaka - 1206, Bangladesh</li>
+                                </ul>
+                            </div><!-- End .contact-info-box -->
+                        </div><!-- End .col-md-4 -->
+                    
+                        <div class="col-md-4 col-sm-4">
+                            <div class="contact-info-box box lightblue text-center">
+                                <h3>Call Us</h3>
+                                <span class="contact-info-icon lightbluebg"><i class="fa fa-mobile-phone"></i></span>
+                                <ul class="contact-info-list">
+                                    <li>(+88)02-8417940, 02-8418169</li>
+                                    <li>+880-9613225588</li>
+                                </ul>
+                            </div><!-- End .contact-info-box -->
+                        </div><!-- End .col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="contact-info-box box red text-center">
+                                <h3>Quick Contact</h3>
+                                <span class="contact-info-icon redbg"><i class="fa fa-envelope-o"></i></span>
+                                <ul class="contact-info-list">
+                                    <li><a href="mailto:support@techcloudltd.com">support@techcloudltd.com</a></li>
+                                    <li><em class="highlight red">Skype:</em> techcloud_cs</li>
+                                </ul>
+                            </div><!-- End .contact-info-box -->
+                        </div><!-- End .col-md-4 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+
+                <div class="lg-margin2x hidden-sm hidden-xs"></div><!-- space -->
+                <div class="xlg-margin visible-sm visible-xs"></div><!-- space -->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-10 col-md-push-2 col-sm-push-1">
+                            <h2 class="h3 text-center lg-margin">Get In Touch</h2>
+                            <form action="#" id="contact-form" method="post" novalidate>
+                                <div class="form-group">
+                                    <input type="text" name="contactname" id="contactname" required class="form-control input-lg">
+                                    <span class="animated-label">Your Name *</span>
+                                </div><!-- End .form-group -->
+
+                                <div class="form-group">
+                                    <input type="email" name="contactemail" id="contactemail" required class="form-control input-lg">
+                                    <span class="animated-label">Your Email *</span>
+                                </div><!-- End .form-group -->
+
+                                <div class="form-group">
+                                    <input type="text" name="contactsubject" id="contactsubject" class="form-control input-lg">
+                                    <span class="animated-label">Subject</span>
+                                </div><!-- End .form-group -->
+
+                                <div class="form-group">
+                                    <textarea name="contactmessage" id="contactmessage" class="form-control input-lg" cols="30" rows="7"></textarea>
+                                    <span class="animated-label textarea-label">Your Message *</span>
+                                </div><!-- End .form-group -->
+
+                                <div class="form-group text-center">
+                                    <input type="submit" class="btn btn-lightblue btn-lg" value="Send">
+                                    <input type="reset" class="btn btn-yellow btn-lg" value="Reset">
+                                </div><!-- End .form-group -->
+                            </form>
+                        </div><!-- End .col-md-8 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+            </section>
+
+            <footer id="footer" class="parallax" data-stellar-background-ratio="0.15">
+                <div class="overlaybg overlay-pattern1"></div><!-- End .section-overlay -->
+                <div class="section-content" >
+                    <div class="footer-social-icons transparent">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="social-icons-container">
+                                        <li><a target="_blank" href="https://www.facebook.com/techcloudbd" class="facebook add-tooltip" data-placement="top" data-toggle="tooltip" title="Follow us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                                        
+                                        <li><a target="_blank" href="https://www.linkedin.com/company/tech-cloud-limited?trk=tyah" class="linkedin add-tooltip" data-placement="top" data-toggle="tooltip" title="Follow us on LinkedIn"><i class="fa fa-linkedin"></i>
+                                        
+                                        <li><a target="_blank" href="https://www.youtube.com/channel/UC4jKNFfGuiKMZL141LTUqow" class="youtube add-tooltip" data-placement="top" data-toggle="tooltip" title="Visit Our YouTube Channel"><i class="fa fa-youtube"></i>
+                                        
+                                        <li><a href="#" class="twitter add-tooltip" data-placement="top" data-toggle="tooltip" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#" class="googleplus add-tooltip" data-placement="top" data-toggle="tooltip" title="Follow us on Google +"><i class="fa fa-google-plus"></i></a></li>                                       
+                                    </ul>
+                                </div><!-- End .col-md-12 -->
+                            </div><!-- End .row -->
+                        </div><!-- End .container -->
+                    </div><!-- End .footer-social-icons -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>All rights reserved &copy; <a href="http://www.techcloudltd.com/" class="yellow-color" title="Tech Cloud Ltd.">Tech Cloud Ltd.</a> <span class="footer-date highlight red"> 2016</span></p>
+                                
+                            </div><!-- End .col-md-12 -->
+                        </div><!-- End .row -->
+                    </div><!-- End .container -->
+                </div><!-- End .section-content -->
+            </footer>
+            
+        </div><!-- End #wrapper -->
+
+        <!-- Scroll Top Button -->
+        <a href="#home" id="scroll-top" class="add-tooltip" data-placement="top" title="Go to top"><i class="fa fa-angle-double-up"></i></a>
+
+        <!-- Plugins -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/twitter/jquery.tweet.min.js"></script>
+        <script src="js/jquery.themepunch.tools.min.js"></script>
+        <script src="js/jquery.themepunch.revolution.min.js"></script>
+        <script src="js/jquery.mb.YTPlayer.js"></script>
+        <script src="js/main.js"></script>
+            
+        <!-- Google map javascript api v3 -->
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+        <script>
+            /*----------------------------------------------------*/
+            //* Google javascript api v3  -- map */
+            /*----------------------------------------------------*/
+            (function () {
+                "use strict";
+
+                if (document.getElementById("map")) {
+                    var locations = [
+                        ['<div class="map-info-box"><ul class="contact-info-list"><li><span><i class="fa fa-home fa-fw"></i></span> Kültür Mh., Konak/İzmir, Türkiye</li><li><span><i class="fa fa-phone fa-fw"></i></span> (+88)02-8417940, 02-8418169, +880-9613225588/li></ul></div>', 23.812743, 90.413236, 8]
+                    ];
+
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 15,
+                        center: new google.maps.LatLng(23.812743, 90.413236),
+                        scrollwheel: false,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        styles: [{"stylers":[{"hue":"#ff1a00"},{"invert_lightness":true},{"saturation":-100},{"lightness":33},{"gamma":0.5}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#2D333C"}]}]
+                    });
+
+                    var infowindow = new google.maps.InfoWindow();
+
+
+                    var marker, i;
+
+                    for (i = 0; i < locations.length; i++) {  
+                      marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                        map: map,
+                        animation: google.maps.Animation.DROP,
+                        icon: 'images/pin.png',
+                      });
+
+                      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                        return function() {
+                          infowindow.setContent(locations[i][0]);
+                          infowindow.open(map, marker);
+                        }
+                      })(marker, i));
+                    }
+                }
+
+            }());
+
+            $(function() {
+                // Slider Revolution for Home Section
+                jQuery('#revslider').revolution({
+                    delay:9000,
+                    startwidth: 1140,
+                    startheight: 600,
+                    onHoverStop:"true",
+                    hideThumbs:0,
+                    lazyLoad:"on",
+                    navigationType:"none",
+                    navigationHAlign:"center",
+                    navigationVAlign:"bottom",
+                    navigationHOffset:0,
+                    navigationVOffset:20,
+                    soloArrowLeftHalign:"left",
+                    soloArrowLeftValign:"center",
+                    soloArrowLeftHOffset:0,
+                    soloArrowLeftVOffset:0,
+                    soloArrowRightHalign:"right",
+                    soloArrowRightValign:"center",
+                    soloArrowRightHOffset:0,
+                    soloArrowRightVOffset:0,
+                    touchenabled:"on",
+                    stopAtSlide:-1,
+                    stopAfterLoops:-1,
+                    dottedOverlay:"twoxtwo",
+                    spinned:"spinner5",
+                    shadow:0,
+                    hideTimerBar: "on",
+                    fullWidth:"off",
+                    fullScreen:"on",
+                    navigationStyle:"preview3"
+                  });
+            });
+        </script>
+    </body>
+</html>

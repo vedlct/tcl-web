@@ -114,6 +114,16 @@
         z-index: 9;
     }
 	
+	.andazi_front {
+		display:inline-block;
+		text-align:center;
+		padding-top:160px;
+	}
+
+	.andazi_front h3 {
+		font-size:16px;
+	}
+	
 	.single_skill.nopadbot {
 		padding-bottom:60px;
 	}
@@ -203,6 +213,55 @@
 
 /* small mobile :320px. */
 @media only screen and (max-width: 479px) {
+	
+	.andazi_front:hover h3, .andazi_front:hover i {
+	display:inherit;
+}
+
+.body_content > section:hover .andazi_front h3,
+.body_content > section:hover .andazi_front i {
+	color:#fff;
+}
+	
+	body.transparent_light .body_content > .web:hover,
+.body_content.layout3 > .web:hover {
+	background: rgba(56, 172, 236, .8);
+}
+
+body.transparent_light .body_content > .ppd:hover,
+.body_content.layout3 > .ppd:hover {
+	background: rgba(56, 172, 236, .8);
+}
+
+body.transparent_light .body_content > .dtp:hover,
+.body_content.layout3 > .dtp:hover {
+	background: rgba(56, 172, 236, .8);
+}
+
+body.transparent_light .body_content > .dm:hover,
+.body_content.layout3 > .dm:hover {
+	background: rgba(56, 172, 236, .8);
+}
+
+.sub_title {
+    padding-top: 4vh;
+}
+
+.web .sub_title {
+    padding-top: 7vh;
+}
+
+.ppd .sub_title {
+    padding-top: 7vh;
+}
+
+.dtp .sub_title {
+    padding-top: 7vh;
+}
+
+.dm .sub_title {
+    padding-top: 7vh;
+}
 
 	h3 {
 		font-size:20px;
@@ -233,10 +292,27 @@
 		height:100px;
 		font-size:60px;
 	}
+	
+	.andazi_front {
+		display:inline-block;
+		text-align:center;
+		padding-top:60px;
+	}
+	
+	.dtp .andazi_front {
+		display:inline-block;
+		text-align:center;
+		padding-top:90px;
+	}
+	
+	.dm .andazi_front {
+		display:inline-block;
+		text-align:center;
+		padding-top:90px;
+	}
 
 	.andazi_front h3 {
-		font-size:20px;
-		letter-spacing:1px;
+		font-size:14px;
 	}
 	
 	.body_content > section .inside_site_title {

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -39,192 +39,20 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <!--[endif]-->
-
-
-    <style>
-        .sidenav {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            right: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-        }
-
-        .sidenav a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            transition: 0.3s;
-        }
-
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
-
-        #mySidenav{z-index: 9999;}
-
-        .sidenav .closebtn {
-            position: absolute;
-            top: 0;
-            right: 200px;
-            font-size: 36px;
-            margin-left: 50px;
-        }
-		
-
-		#loader_site_title {
-			position:relative;
-			width:100%;
-			height:105vh;
-			display:-webkit-inline-box;
-			display:-ms-inline-flexbox;
-			display:inline-flex;
-			-webkit-box-pack:center;
-				-ms-flex-pack:center;
-					justify-content:center;
-			-webkit-box-align:center;
-				-ms-flex-align:center;
-					align-items:center;
-		}
-		
-		#loader_site_title h3 {
-			z-index:99;
-			margin-top:-5vh;
-			position:relative;
-			width:120px;
-			height:120px;
-			color:#333;
-			display:-webkit-inline-box;
-			display:-ms-inline-flexbox;
-			display:inline-flex;
-			-webkit-box-pack:center;
-				-ms-flex-pack:center;
-					justify-content:center;
-			-webkit-box-align:center;
-				-ms-flex-align:center;
-					align-items:center;
-			margin-top:0px;
-			text-transform:uppercase;
-			font-weight:700;
-			letter-spacing:1.3px;
-			font-size:72px;
-		}
-		
-		#loader_site_title h3:after {
-			position:absolute;
-			content:'';
-			width:100%;
-			height:100%;
-			background:#DDDDDD;
-			left:0;
-			top:0;
-			z-index:-1;
-			-webkit-transform:rotate(45deg);
-				-ms-transform:rotate(45deg);
-					transform:rotate(45deg);
-		}
-		
-		
-		#loader_site_title h3 a {
-			text-decoration:none;
-			color:#fff;
-		}
-		
-		#loader_site_title h4 {
-			margin-left:-225px;
-			opacity:0;
-			transition:all 0.4s ease-in-out;
-		}
-		
-		header:hover #loader_site_title h4 {
-			opacity:1;
-			margin-left:50px;
-			font-weight:700;
-			letter-spacing:1.3px;
-		}
-		
-		#myDiv {
-		  display: none;
-		  text-align: center;
-		}
-		
-		/* Large Mobile :480px. */
-		@media only screen and (min-width: 480px) and (max-width: 767px) {
-			
-			#loader_site_title h3 {
-				width:120px;
-				height:120px;
-				transition:all 0.3s ease-in-out;
-			}
-			
-			header:hover #loader_site_title h3 {
-				width:100px;
-				height:100px;
-				font-size:52px;
-			}
-			
-			#loader_site_title h4 {
-				font-size:14px;
-				margin-left:-175px;
-			}
-			
-			header:hover #loader_site_title h4 {
-				margin-left:50px;
-			}
-			
-		}
-		
-		/* small mobile :320px. */
-		@media only screen and (max-width: 479px) {
-			
-			#loader_site_title h3 {
-				width:120px;
-				height:120px;
-				transition:all 0.3s ease-in-out;
-			}
-			
-			header:hover #loader_site_title h3 {
-				width:50px;
-				height:50px;
-				font-size:32px;
-			}
-			
-			#loader_site_title h4 {
-				font-size:14px;
-				margin-left:-175px;
-			}
-			
-			header:hover #loader_site_title h4 {
-				margin-left:20px;
-			}
-			
-		}
-
-        @media screen and (max-height: 450px) {
-            .sidenav {padding-top: 15px;}
-            .sidenav a {font-size: 18px;}
-        }
-
-    </style>
+ 
 </head>
 
 <body  class="transparent_light only_image" >
 
-<!--	<div id="loader" style="background:#fff">-->
-<!--		<header id="header">-->
-<!--			<div id="loader_site_title">-->
-<!--				<a href="#"><img src="--><?php //echo base_url('public/images/'.thumb('public/images/tcl-logo.png','100','85')); ?><!--" alt="TCL Logo" width="100" style="margin-top: -15px"></a>-->
-<!--				<h4>Your secure digital workspace</h4>-->
-<!--			</div>-->
-<!--		</header>-->
-<!--	</div>-->
+	<div id="loader" style="background:#fff">
+		<header id="header">
+			<div id="loader_site_title">
+				<a href="#"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','100','85')); ?>" alt="TCL Logo" width="100" style="margin-top: -15px"></a>
+				<h4>Your secure digital workspace</h4>
+			</div>
+		</header>
+	</div>
+
 
 	<div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -233,6 +61,7 @@
         <a href="<?php echo base_url()?>office-culture">Office Culture</a>
         <a href="<?php echo base_url()?>contact">Contact</a>
         <a href="<?php echo base_url()?>privacy-policy">Privacy Policy</a>
+          <a href="<?php echo base_url()?>refund-policy">Refund Policy</a>
     </div>
 
 
@@ -259,7 +88,7 @@
 				<div class="andazi_back">
 					<div class="sub_hero_title">
 <!--						<h3 class="inside_site_title"><img src="--><?php //echo base_url()?><!--public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>-->
-						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
+						<h3 class="inside_site_title"><img class="hidden-xs" src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
 						<span class="andazi-close icon ion-ios-close-outline"></span>
 						<div class="sub_title">
 							<h3>Web App Development</h3>
@@ -349,7 +178,7 @@
 									<h3>Our Expertise & Tools</h3> 
 									<hr />
 <!--									<img class="img-responsive" src="--><?php //echo base_url()?><!--public/images/lc.jpg">-->
-									<img width="1782" height="758" class="img-responsive" src="<?php echo base_url('public/images/'.thumb('public/images/lc.jpg','1752','758')); ?>">
+									<img class="img-responsive" src="<?php echo base_url('public/images/'.thumb('public/images/lc.jpg','1752','758')); ?>">
 
                                    
 								</div>  
@@ -500,7 +329,7 @@
 
                                <div class="col-md-6">
                                    <div class="" style="padding-bottom:0">
-                                       <h3>Foodoo</h3>
+                                       <h3>eRestaurant</h3>
                                        <hr />
                                        <div id="our_works">
                                        <ul id="grid-list" class="grid-layout">
@@ -719,49 +548,230 @@
                                        </div>
                                    </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="" style="padding-bottom:0">
-                                        <h3 style="overflow-y:hidden;" >Client Relationship Management (CRM)</h3>
-                                        <hr />
-                                        <div id="our_works">
-                                            <ul id="grid-list" class="grid-layout">
-                                                <!-- Works Item 01 -->
-                                                <li class="col-md-4 col-sm-6 masonry_item webd web">
-                                                    <a href="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','600','450')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
-                                                        <img width="165" height="78" src="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','165','78')); ?>" alt="" />
-                                                        <div class="work-overlay">
-                                                            <div class="valign">
-                                                                <span class="icon ion-ios-search"></span>
-                                                            </div>
-                                                        </div>
-                                                        </div></a>
-                                                </li>
-                                                <!-- Works Item 02 -->
-                                                <li class="col-md-4 col-sm-6 masonry_item webd graphics">
-                                                    <a href="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','600','450')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
-                                                        <img width="165" height="78" src="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','165','78')); ?>" alt="" />
-                                                        <div class="work-overlay">
-                                                            <div class="valign">
-                                                                <span class="icon ion-ios-search"></span>
-                                                            </div>
-                                                        </div>
-                                                        </div></a>
-                                                </li>
-                                                <!-- Works Item 03 -->
-                                                <li class="col-md-4 col-sm-6 masonry_item webd">
-                                                    <a href="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','600','450')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
-                                                        <img width="165" height="78" src="<?php echo base_url('public/images/'.thumb('public/images/600x450.png','165','78')); ?>" alt="" />
-                                                        <div class="work-overlay">
-                                                            <div class="valign">
-                                                                <span class="icon ion-ios-search"></span>
-                                                            </div>
-                                                        </div>
-                                                        </div></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                <div class="row">
+                               <div class="col-md-6">
+                                   <div class="" style="padding-bottom:0">
+                                       <h3 style="overflow:hidden;">eStock</h3>
+                                       <hr />
+                                       <div id="our_works">
+                                       <ul id="grid-list" class="grid-layout">
+                                           <!-- Works Item 01 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd web">
+                                               <a href="<?php echo base_url('public/images/estock/'.thumb('public/images/estock/estock1.JPG','1920','2327')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/estock/'.thumb('public/images/estock/estock1.JPG','165','199')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                           <!-- Works Item 02 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd graphics">
+                                               <a href="<?php echo base_url('public/images/estock/'.thumb('public/images/estock/estock2.JPG','1630','931')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/estock/'.thumb('public/images/estock/estock2.JPG','165','94')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                           <!-- Works Item 03 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd">
+                                               <a href="<?php echo base_url('public/images/estock/'.thumb('public/images/estock/estock3.JPG','1630','931')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/estock/'.thumb('public/images/estock/estock3.JPG','165','94')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                           <!-- Works Item 04 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd graphics">
+                                               <a href="<?php echo base_url('public/images/estock/'.thumb('public/images/estock/estock4.JPG','1630','910')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/estock/'.thumb('public/images/estock/estock4.JPG','165','78')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                             <!-- Works Item 05 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd graphics">
+                                               <a href="<?php echo base_url('public/images/estock/'.thumb('public/images/estock/estock5.JPG','1630','910')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/estock/'.thumb('public/images/estock/estock5.JPG','165','78')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                       </ul>
+                                       </div>
+                                   </div>
                                 </div>
+                                
+                              <div class="col-md-6">
+                                   <div class="" style="padding-bottom:0">
+                                       <h3 style="overflow:hidden;">CRM Sales</h3>
+                                       <hr />
+                                       <div id="our_works">
+                                       <ul id="grid-list" class="grid-layout">
+                                           <!-- Works Item 01 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd web">
+                                               <a href="<?php echo base_url('public/images/crm/'.thumb('public/images/crm/crm1.JPG','1920','2327')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/crm/'.thumb('public/images/crm/crm1.JPG','165','199')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                           <!-- Works Item 02 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd graphics">
+                                               <a href="<?php echo base_url('public/images/crm/'.thumb('public/images/crm/crm2.JPG','1630','931')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/crm/'.thumb('public/images/crm/crm2.JPG','165','94')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                           <!-- Works Item 03 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd">
+                                               <a href="<?php echo base_url('public/images/crm/'.thumb('public/images/crm/crm3.JPG','1630','931')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/crm/'.thumb('public/images/crm/crm3.JPG','165','94')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                           <!-- Works Item 04 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd graphics">
+                                               <a href="<?php echo base_url('public/images/crm/'.thumb('public/images/crm/crm4.JPG','1630','910')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/crm/'.thumb('public/images/crm/crm4.JPG','165','78')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                             <!-- Works Item 05 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd graphics">
+                                               <a href="<?php echo base_url('public/images/crm/'.thumb('public/images/crm/crm5.JPG','1630','910')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/crm/'.thumb('public/images/crm/crm5.JPG','165','78')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                       </ul>
+                                       </div>
+                                   </div>
+                                </div>
+                                  <div class="col-md-6">
+                                   <div class="" style="padding-bottom:0">
+                                       <h3 style="overflow:hidden;">Recruitment System (On Going)</h3>
+                                       <hr />
+                                       <div id="our_works">
+                                       <ul id="grid-list" class="grid-layout">
+                                           <!-- Works Item 01 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd web">
+                                               <a href="<?php echo base_url('public/images/caritas/'.thumb('public/images/caritas/caritas1.jpg','1920','2327')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/caritas/'.thumb('public/images/caritas/caritas1.jpg','165','199')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                           <!-- Works Item 02 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd graphics">
+                                               <a href="<?php echo base_url('public/images/caritas/'.thumb('public/images/caritas/caritas2.jpg','1630','931')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/caritas/'.thumb('public/images/caritas/caritas2.jpg','165','94')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                           <!-- Works Item 03 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd">
+                                               <a href="<?php echo base_url('public/images/caritas/'.thumb('public/images/caritas/caritas3.JPG','1630','931')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/caritas/'.thumb('public/images/caritas/caritas3.JPG','165','94')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                        
+                                       </ul>
+                                       </div>
+                                   </div>
+                                </div>
+                                
+                              
+                              <div class="col-md-6">
+                                   <div class="" style="padding-bottom:0">
+                                       <h3 style="overflow:hidden;">HR Analytica (On GOing)</h3>
+                                       <hr />
+                                       <div id="our_works">
+                                       <ul id="grid-list" class="grid-layout">
+                                           <!-- Works Item 01 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd web">
+                                               <a href="<?php echo base_url('public/images/hr/'.thumb('public/images/hr/hr1.JPG','1920','2327')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/hr/'.thumb('public/images/hr/hr1.JPG','165','199')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                           <!-- Works Item 02 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd graphics">
+                                               <a href="<?php echo base_url('public/images/hr/'.thumb('public/images/hr/hr2.JPG','1630','931')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/hr/'.thumb('public/images/hr/hr2.JPG','165','94')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                           <!-- Works Item 03 -->
+                                           <li class="col-md-4 col-sm-6 masonry_item webd">
+                                               <a href="<?php echo base_url('public/images/hr/'.thumb('public/images/hr/hr3.JPG','1630','931')); ?>" data-group="1" class="galleryItem" title=""><div class="work_content">
+                                                   <img src="<?php echo base_url('public/images/hr/'.thumb('public/images/hr/hr3.JPG','165','94')); ?>" alt="" />
+                                                   <div class="work-overlay">
+                                                       <div class="valign">
+                                                           <span class="icon ion-ios-search"></span>
+                                                       </div>
+                                                   </div>
+                                                   </div></a>
+                                           </li>
+                                        
+                                       </ul>
+                                       </div>
+                                   </div>
+                                </div>
+                                
+                              
 							</div>
 							
 							
@@ -782,7 +792,7 @@
                                             <ul id="grid-list" class="grid-layout">
                                                 <!-- Works Item 01 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item webd web">
-                                                    <a href="<?php echo base_url()?>public/images/web/afrah.png" data-group="1" class="galleryItem" title="Project One"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/afrah.png" data-group="1" class="galleryItem" title="afrah"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/afrah.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -793,7 +803,7 @@
                                                 </li>
                                                 <!-- Works Item 02 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item webd graphics">
-                                                    <a href="<?php echo base_url()?>public/images/web/ariaty.png" data-group="1" class="galleryItem" title="Project Two"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/ariaty.png" data-group="1" class="galleryItem" title="ariaty"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/ariaty.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -804,7 +814,7 @@
                                                 </li>
                                                 <!-- Works Item 03 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item webd">
-                                                    <a href="<?php echo base_url()?>public/images/web/business-riders.png" data-group="1" class="galleryItem" title="Project Three"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/business-riders.png" data-group="1" class="galleryItem" title="Business-riders"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/business-riders.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -815,7 +825,7 @@
                                                 </li>
                                                 <!-- Works Item 04 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item web">
-                                                    <a href="<?php echo base_url()?>public/images/web/fairpriceauto.png" data-group="1" class="galleryItem" title="Project Four"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/fairpriceauto.png" data-group="1" class="galleryItem" title="fairpriceauto"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/fairpriceauto.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -826,7 +836,7 @@
                                                 </li>
                                                 <!-- Works Item 05 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item web graphics">
-                                                    <a href="<?php echo base_url()?>public/images/web/fundhub.png" data-group="1" class="galleryItem" title="Project Five"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/fundhub.png" data-group="1" class="galleryItem" title="fundhub"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/fundhub.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -837,7 +847,7 @@
                                                 </li>
                                                 <!-- Works Item 06 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item web">
-                                                    <a href="<?php echo base_url()?>public/images/web/gulshan-tours.png" data-group="1" class="galleryItem" title="Project Six"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/gulshan-tours.png" data-group="1" class="galleryItem" title="gulshan tour"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/gulshan-tours.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -848,7 +858,7 @@
                                                 </li>
                                                 <!-- Works Item 07 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item graphics">
-                                                    <a href="<?php echo base_url()?>public/images/web/icon-college.png" data-group="1" class="galleryItem" title="Project Seven"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/icon-college.png" data-group="1" class="galleryItem" title="Icon College"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/icon-college.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -859,7 +869,7 @@
                                                 </li>
                                                 <!-- Works Item 08 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item webd">
-                                                    <a href="<?php echo base_url()?>public/images/web/jaadcar.png" data-group="1" class="galleryItem" title="Project Eight"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/jaadcar.png" data-group="1" class="galleryItem" title="Jaadcar"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/jaadcar.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -870,7 +880,7 @@
                                                 </li>
                                                 <!-- Works Item 09 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item web">
-                                                    <a href="<?php echo base_url()?>public/images/web/kabic.png" data-group="1" class="galleryItem" title="Project Nine"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/kabic.png" data-group="1" class="galleryItem" title="Kabic"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/kabic.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -881,7 +891,7 @@
                                                 </li>
                                                 <!-- Works Item 09 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item web">
-                                                    <a href="<?php echo base_url()?>public/images/web/p2services.png" data-group="1" class="galleryItem" title="Project Nine"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/p2services.png" data-group="1" class="galleryItem" title="p@services"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/p2services.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -892,7 +902,7 @@
                                                 </li>
                                                 <!-- Works Item 09 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item web">
-                                                    <a href="<?php echo base_url()?>public/images/web/servicehub.png" data-group="1" class="galleryItem" title="Project Nine"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/servicehub.png" data-group="1" class="galleryItem" title="serviceHub"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/servicehub.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -903,7 +913,7 @@
                                                 </li>
                                                 <!-- Works Item 09 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item web">
-                                                    <a href="<?php echo base_url()?>public/images/web/smashpay.png" data-group="1" class="galleryItem" title="Project Nine"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/smashpay.png" data-group="1" class="galleryItem" title="smashpay"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/smashpay.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -914,7 +924,7 @@
                                                 </li>
                                                 <!-- Works Item 09 -->
                                                 <li class="col-md-4 col-sm-6 masonry_item web">
-                                                    <a href="<?php echo base_url()?>public/images/web/tekno-visual.png" data-group="1" class="galleryItem" title="Project Nine"><div class="work_content">
+                                                    <a href="<?php echo base_url()?>public/images/web/tekno-visual.png" data-group="1" class="galleryItem" title="tekno-visual"><div class="work_content">
                                                         <img src="<?php echo base_url()?>public/images/web/tekno-visual.png" alt="" />
                                                         <div class="work-overlay">
                                                             <div class="valign">
@@ -923,6 +933,28 @@
                                                         </div>
                                                         </div></a>
                                                 </li>
+                                                <li class="col-md-4 col-sm-6 masonry_item web">
+                                                    <a href="<?php echo base_url()?>public/images/web/network.jpg"  data-group="1" class="galleryItem" title="network runner"><div class="work_content">
+                                                        <img src="<?php echo base_url()?>public/images/web/network.jpg" style= "width:370 ; height: 188" alt="" />
+                                                        <div class="work-overlay">
+                                                            <div class="valign">
+                                                                <span class="icon ion-ios-search"></span>
+                                                            </div>
+                                                        </div>
+                                                        </div></a>
+                                                </li>
+                                                <li class="col-md-4 col-sm-6 masonry_item web">
+                                                    <a href="<?php echo base_url()?>public/images/web/paul.jpg" data-group="1" class="galleryItem" title="paulcostelloebags"><div class="work_content">
+                                                        <img src="<?php echo base_url()?>public/images/web/paul.jpg"  style= "width:370 ; height: 188" alt="" />
+                                                        <div class="work-overlay">
+                                                            <div class="valign">
+                                                                <span class="icon ion-ios-search"></span>
+                                                            </div>
+                                                        </div>
+                                                        </div></a>
+                                                </li>
+                                         
+                                               
                                             </ul>
                                             <!-- Works Grid End -->
                                         </div>
@@ -950,8 +982,8 @@
 				
 				<div class="andazi_back">
 					<div class="sub_hero_title">
-						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
-<!--						<h3 class="inside_site_title"><img src="--><?php //echo base_url()?><!--public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>-->
+						<h3 class="inside_site_title"><img class="hidden-xs" src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
+<!--						<h3 class="inside_site_title"><img class="hidden-xs" src="--><?php //echo base_url()?><!--public/images/tcl-logo.png" alt="TCL Logo" width="80"></h3>-->
 						<span class="andazi-close icon ion-ios-close-outline"></span>
 						<div class="sub_title">
 							<h3>Image Post Production</h3>
@@ -1353,7 +1385,7 @@
 				
 				<div class="andazi_back">
 					<div class="sub_hero_title">
-						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
+						<h3 class="inside_site_title"><img class="hidden-xs" src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
 						<span class="andazi-close icon ion-ios-close-outline"></span>
 						<div class="sub_title">
 							<h3>Graphic Design</h3>
@@ -1495,7 +1527,7 @@
 						<div class="container">
 							<div class="row">
 								<div class="content_title" style="padding-top:0">
-									<h3>Some of Our Good Works</h3>
+									<h3>Some of Our Recent Works</h3>
 									<hr />
 									<p>The world is changing all around us. To continue to thrive as a 
 									business over the next ten years and beyond, we must look ahead, 
@@ -1576,8 +1608,8 @@
 										</li>
 										<!-- Works Item 05 -->
 										<li class="col-md-4 col-sm-6 masonry_item web graphics">
-											<a href="<?php echo base_url()?>public/images/graphics/brochure.jpg" data-group="1" class="galleryItem" title="Project Five"><div class="work_content">
-												<img src="<?php echo base_url()?>public/images/graphics/brochure-thumb.jpg" alt="" />
+											<a href="<?php echo base_url()?>public/images/graphics/Afrah-final1.jpg" data-group="1" class="galleryItem" title="Project Five"><div class="work_content">
+												<img src="<?php echo base_url()?>public/images/graphics/Afrah-final.jpg" alt="" />
 												<div class="work-overlay">
 													<div class="valign">
 														<span class="icon ion-ios-search"></span>
@@ -1759,7 +1791,7 @@
 				
 				<div class="andazi_back">
 					<div class="sub_hero_title">
-						<h3 class="inside_site_title"><img src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
+						<h3 class="inside_site_title"><img class="hidden-xs" src="<?php echo base_url('public/images/'.thumb('public/images/tcl-logo.png','80','68')); ?>" alt="TCL Logo" width="80"></h3>
 						<span class="andazi-close icon ion-ios-close-outline"></span>
 						<div class="sub_title">
 							<h3>Digital Marketing</h3>
@@ -1849,7 +1881,7 @@
 								<div class="col-md-6">
                                 
                                 <div id="rightDisplay">
-                                      <img class="img-responsive" id="currentImg1" src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_1.png','850','600')); ?>" />
+                                      <img class="img-responsive"  id="currentImg1" src="<?php echo base_url('public/images/ppd-portfolio/ghost-mannequin/'.thumb('public/images/ppd-portfolio/ghost-mannequin/item_1.png','850','600')); ?>" />
                                 </div>
                                 
                                 <div id="mainContainer">
@@ -2432,56 +2464,55 @@
     }
 </script>
 
-<!--<script>-->
-<!--    var myVar;-->
-<!---->
-<!--    function myFunction() {-->
-<!--        myVar = setTimeout(showPage, 1000);-->
-<!--    }-->
-<!---->
-<!--    function showPage() {-->
-<!--        document.getElementById("loader").style.display = "none";-->
-<!--        document.getElementById("myDiv").style.display = "block";-->
-<!--    }-->
-<!--</script>-->
+<script>
+    var myVar;
+
+//    function myFunction() {
+//        myVar = setTimeout(showPage, 1000);
+//    }
+    window.onload = setTimeout(showPage, 4000);;
+    function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+    }
+</script>
 
 
 <!-- Required Javascript Files -->
-
-<script src="<?php echo base_url()?>public/js/jquery.min.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<!--<script src="--><?php //echo base_url()?><!--public/js/jquery.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 <!--<script src="--><?php //echo base_url()?><!--public/js/jquery.migrate.min.js"></script>-->
 
-<script src="<?php echo base_url()?>public/js/bootstrap.min.js"></script>
-<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>-->
+<!--<script src="--><?php //echo base_url()?><!--public/js/bootstrap.min.js"></script>-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
 <script src="<?php echo base_url()?>public/js/boxlayout.js"></script>
 <script src="<?php echo base_url()?>public/js/jquery.circlechart.js"></script>
 
-<script src="<?php echo base_url()?>public/js/masonry.pkgd.min.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.0.0/masonry.pkgd.min.js"></script>-->
+<!--<script src="--><?php //echo base_url()?><!--public/js/masonry.pkgd.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.0.0/masonry.pkgd.min.js"></script>
 
 
-<script src="<?php echo base_url()?>public/js/imagesloaded.pkgd.min.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>-->
+<!--<script src="--><?php //echo base_url()?><!--public/js/imagesloaded.pkgd.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
 
 
-<script src="<?php echo base_url()?>public/js/jquery.isotope.min.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>-->
+<!--<script src="--><?php //echo base_url()?><!--public/js/jquery.isotope.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
 
 
-<script src="<?php echo base_url()?>public/js/jquery.magnific-popup.min.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>-->
+<!--<script src="--><?php //echo base_url()?><!--public/js/jquery.magnific-popup.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
 
 
-<script src="<?php echo base_url()?>public/js/jquery.validationEngine.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.2/jquery.validationEngine.min.js"></script>-->
+<!--<script src="--><?php //echo base_url()?><!--public/js/jquery.validationEngine.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.2/jquery.validationEngine.min.js"></script>
 
 
-<script src="<?php echo base_url()?>public/js/jquery.validationEngine-en.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.2/languages/jquery.validationEngine-en.min.js"></script>-->
+<!--<script src="--><?php //echo base_url()?><!--public/js/jquery.validationEngine-en.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.2/languages/jquery.validationEngine-en.min.js"></script>
 
 
 <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm0uh_VRDYSFOnLewPnlmHrgiErw7GI6U"></script>-->
