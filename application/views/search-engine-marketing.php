@@ -44,6 +44,82 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="<?php echo base_url()?>public/js/modernizr.custom.js"></script>
+    <style>
+        /*
+   ##Device = Desktops
+   ##Screen = 1281px to higher resolution desktops
+ */
+
+        @media (min-width: 1281px) {
+
+
+
+        }
+
+        /*
+          ##Device = Laptops, Desktops
+          ##Screen = B/w 1025px to 1280px
+        */
+
+        @media (min-width: 1025px) and (max-width: 1280px) {
+
+
+
+        }
+
+        /*
+          ##Device = Tablets, Ipads (portrait)
+          ##Screen = B/w 768px to 1024px
+        */
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+
+
+
+        }
+
+        /*
+          ##Device = Tablets, Ipads (landscape)
+          ##Screen = B/w 768px to 1024px
+        */
+
+        @media (min-width: 768px) and (max-width: 1024px)  {
+
+
+        }
+
+        /*
+          ##Device = Low Resolution Tablets, Mobiles (Landscape)
+          ##Screen = B/w 481px to 767px
+        */
+
+        @media (min-width: 481px) and (max-width: 767px) {
+            .row {
+                margin-right: -50px;
+                margin-left: -15px;
+            }
+
+        }
+
+        /*
+          ##Device = Most of the Smartphones Mobiles (Portrait)
+          ##Screen = B/w 320px to 479px
+        */
+
+        @media (min-width: 320px) and (max-width: 480px) {
+
+        .row {
+            margin-right: -53px;
+        }
+
+        }
+        @media (max-width: 480px) and (min-width: 320px) {
+            .row {
+                margin-right: -66px;
+            }
+        }
+
+    </style>
 
 </head>
 
@@ -96,46 +172,51 @@
                         and reach the targeted audience also helps to maximize engagement and audience interaction with conversion.
                     </div>
                     <br><br><br>
-                        <div class="col-lg-6">
-                            <h4><b>Keyword Research</b></h4>
+
+                        <div class="col-sm-6 " >
+
                             <div class="row">
-                                <div style="float: left; width: 450px; text-align: justify;" class="col-lg-4">
+
+                                <div style="float: left; width: 480px; text-align: justify;" class="col-lg-4">
+                                    <h4><b>Keyword Research</b></h4>
                                     <span style="text-align: justify">Keyword research is one of the primary and prominent tasks to get it started. Based on the client’s objective and goal, our experts dive into the keyword research task to find out suitable keywords according to the products or service. </span>
                                 </div>
-                                <div style="float: left;" class="col-lg-2">
-                                    <img style="margin-top: -27px;" height="110px" src="<?php echo base_url()?>/public/images/Icon-01.png">
+                                <div style="float: right;" class="col-lg-2">
+                                    <img class="img1" style="margin-top: 10px; margin-left: -30px" height="110px" src="<?php echo base_url()?>/public/images/Icon-01.png">
                                 </div>
                             </div>
                             <br>
-                            <h4><b>Campaign Setup</b></h4>
+
                             <div class="row">
-                                <div style="float: left; width: 450px; text-align: justify;" class="col-lg-4">
+
+                                <div style="float: left; width: 480px; text-align: justify;" class="col-lg-4">
+                                    <h4><b>Campaign Setup</b></h4>
                                     <span style="text-align: justify">Our devoted professional team strives to deliver the best campaign strategy to build your business with immense value in front of your targeted audience. Our wide range of support includes keyword research to bids, ad copies, remarketing list, and display networks sites.</span>
                                 </div>
-                                <div style="float: left;" class="col-lg-2">
-                                    <img style="margin-top: -27px;" height="110px" src="<?php echo base_url()?>/public/images/Icon-01.png">
+                                <div style="float: right;" class="col-lg-2">
+                                    <img style="margin-top: 10px; margin-left: -30px" height="110px" src="<?php echo base_url()?>/public/images/Icon-01.png">
                                 </div>
                             </div>
 
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-sm-6">
 
                             <div class="row">
-                                <div style="margin-left: -30px" class="col-lg-2" >
+                                <div style="float:left; " class="col-lg-2" >
                                     <img style="margin-top: 12px;" height="110px" src="<?php echo base_url()?>/public/images/Icon-02.png">
                                 </div>
-                                <div style="float: right; width: 480px; text-align: justify;" class="col-lg-4">
+                                <div style="float: right;  width: 480px; text-align: justify;" class="col-lg-4">
                                     <h4><b>Full-Range Monitoring</b></h4>
                                     <span style="text-align: justify">We provide a weekly and monthly report by monitoring your business campaign. Moreover, we make every subtle adjustment to create reports which will allow you to take proper initiatives to set or modify business profit margin. </span>
                                 </div>
 
                             </div>
                             <br>
-                            <div class="row">
-                                <div style="margin-left: -30px" class="col-lg-2" >
-                                    <img style="margin-top: 12px;" height="110px" src="<?php echo base_url()?>/public/images/Icon-02.png">
+                            <div class="row" >
+                                <div style=" float:left; " class="col-lg-2" >
+                                    <img style="margin-top: 12px; " height="110px" src="<?php echo base_url()?>/public/images/Icon-02.png">
                                 </div>
-                                <div style="float: right; width: 480px; text-align: justify;" class="col-lg-4">
+                                <div style="float: right ; width: 480px; text-align: justify;" class="col-lg-4">
                                     <h4><b>Analysis & Reporting</b></h4>
                                     <span style="text-align: justify">We love to analyze data to find insights, whether it’s about your users, customer journey or attribution. We believe this is the only way to get the very best out of your search engine marketing campaigns & understanding their real value.</span>
                                 </div>
