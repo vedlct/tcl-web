@@ -27,4 +27,8 @@ class Home extends CI_Controller {
     public function refundpolicy(){
         $this->load->view('refund-policy');
     }
+
+    public function searchEngineMarketing(){
+        $this->load->view('search-engine-marketing');
+    }
 }

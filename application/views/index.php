@@ -1810,37 +1810,50 @@
 							</div>
 
                                     <div class="row designed-grid-box" style="padding-bottom:0px; padding-top:0">
-                                        <div class="col-md-3">
-                                            <ul class="list-ic vertical" style="height: 175px;">
+                                        <div class="col-sm-4">
+                                           <a target="_blank" href="<?php echo base_url('search-engine-marketing')?>"> <ul class="list-ic vertical" style="height: 175px;">
                                                 <li>
                                                     <span><i class="fa fa-comments" aria-hidden="true"></i></span>
-                                                    <h4>SMS Marketing</h4>
+                                                    <h4>Search Engine Marketing</h4>
                                                 </li>       
-                                            </ul>		
+                                            </ul></a>
                                         </div>
-                                        <div class="col-md-3">
-                                            <ul class="list-ic vertical" style="height: 175px;">
+                                        <div class="col-sm-4">
+                                            <a href="#"> <ul class="list-ic vertical" style="height: 175px;">
                                                 <li>
                                                     <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
-                                                    <h4>Facebook Marketing</h4>
+                                                    <h4>Local SEO Services</h4>
                                                 </li>       
-                                            </ul>		
+                                                </ul>	</a>
                                         </div>
-                                        <div class="col-md-3">
-                                            <ul class="list-ic vertical" style="height: 175px;">
+                                        <div class="col-sm-4">
+                                            <a href="#"> <ul class="list-ic vertical" style="height: 175px;">
                                                 <li>
                                                     <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                                                    <h4>E-mail Marketing</h4>
+                                                    <h4>Content Strategy Services</h4>
                                                 </li>       
-                                            </ul>		
+                                                </ul></a>
                                         </div>
-                                        <div class="col-md-3">
-                                            <ul class="list-ic vertical" style="height: 175px;">
+                                    </div>
+                                                <br>
+                                    <div class="row designed-grid-box" style="padding-bottom:0px; padding-top:0">
+
+                                        <div class="col-sm-6">
+                                            <a href="#">  <ul class="list-ic vertical" style="height: 175px;">
                                                 <li>
                                                     <span><i class="fa fa-lightbulb-o" aria-hidden="true"></i></span>
-                                                    <h4>Digital Content & Creative Services</h4>
+                                                    <h4>Professional Search Engine Optimization</h4>
                                                 </li>       
-                                            </ul>		
+                                                </ul></a>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <a href="#"><ul class="list-ic vertical" style="height: 175px;">
+                                                <li>
+                                                    <span><i class="fa fa-lightbulb-o" aria-hidden="true"></i></span>
+                                                    <h4>Social Media Marketing Agency</h4>
+                                                </li>
+                                                </ul> </a>
                                         </div>
                                     </div>
                             
