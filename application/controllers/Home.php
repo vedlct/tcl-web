@@ -31,4 +31,14 @@ class Home extends CI_Controller {
     public function searchEngineMarketing(){
         $this->load->view('search-engine-marketing');
     }
+
+    public function localSeoServices(){
+        $this->load->view('local-seo-services');
+    }
+    public function ProfessionalSearchEngineOptimization(){
+        $this->load->view('professional-search-engine-optimization');
+    }
+    public function SocialMediaMarketingAgency(){
+        $this->load->view('social-media-marketing-services');
+    }
 }

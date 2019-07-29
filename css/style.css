@@ -3323,7 +3323,7 @@ section.andazi-expand .andazi_front {
     text-align: center;
     line-height: 4.6em;
     border-radius: 3em;
-    background: #38ACEC;
+    background: #ffffff !important;
     color: white;
     position: relative;
 }

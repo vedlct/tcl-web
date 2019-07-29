@@ -58,5 +58,8 @@ $route['privacy-policy'] = 'Home/privacypolicy';
 $route['refund-policy'] = 'Home/refundpolicy';
 
 $route['search-engine-marketing'] = 'Home/searchEngineMarketing';
+$route['local-seo-services'] = 'Home/localSeoServices';
+$route['professional-searchEngine-optimization'] = 'Home/ProfessionalSearchEngineOptimization';
+$route['social-media-marketing-services'] = 'Home/SocialMediaMarketingAgency';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

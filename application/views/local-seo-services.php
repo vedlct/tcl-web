@@ -108,9 +108,9 @@
 
         @media (min-width: 320px) and (max-width: 480px) {
 
-        .row {
-            margin-right: -53px;
-        }
+            .row {
+                margin-right: -53px;
+            }
 
         }
         @media (max-width: 480px) and (min-width: 320px) {
@@ -158,7 +158,7 @@
 
             <div class="sub_title">
                 <img src="<?php echo base_url()?>public/images/icons/about-us.png" width="60">
-                <h3>Search Engine Marketing</h3>
+                <h3>Local SEO Services</h3>
                 <hr />
             </div>
         </div>
@@ -168,106 +168,124 @@
             <div class="container">
                 <div class="row">
                     <br><br><br>
-                    <div align="center"><h3><b>Why use search engine marketing? </b></h3>
-                        Promoting your business website through SEM is now increasing the visibility, adding more value to your business<br>
-                        and reach the targeted audience also helps to maximize engagement and audience interaction with conversion.
-                    </div>
+                    <div align="center"><h3><b>Benefits of Local SEO Services </b></h3>
+                         </div>
                     <br><br><br>
 
-                        <div class="col-sm-6 " >
+                    <div class="col-sm-6 " >
 
-                            <div class="row">
+                        <div class="row">
 
-                                <div style="float: left; width: 480px; text-align: justify;" class="col-lg-4">
-                                    <h4><b>Keyword Research</b></h4>
-                                    <span style="text-align: justify">Keyword research is one of the primary and prominent tasks to get it started. Based on the client’s objective and goal, our experts dive into the keyword research task to find out suitable keywords according to the products or service. </span>
-                                </div>
-                                <div style="float: right;" class="col-lg-2">
-                                    <img class="img1" style="margin-top: 10px; margin-left: -30px" height="110px" src="<?php echo base_url()?>/public/images/Icon-01.png">
-                                </div>
+                            <div style="float: left; width: 480px; text-align: justify;" class="col-lg-4">
+                                <h4><b>Geo-Targeted Ranking</b></h4>
+                                <span style="text-align: justify">Get recognition in your targeted areas with Geo-targeted ranking service. According to every search engine algorithm, geo-targeted ranking offers product or service to the local potential consumers. </span>
                             </div>
-                            <br>
+                            <div style="float: right;" class="col-lg-2">
+                                <img class="img1" style="margin-top: 10px; margin-left: -30px" height="110px" src="<?php echo base_url()?>/public/images/Icon-01.png">
+                            </div>
+                        </div>
+                        <br>
 
-                            <div class="row">
+                        <div class="row">
 
-                                <div style="float: left; width: 480px; text-align: justify;" class="col-lg-4">
-                                    <h4><b>Campaign Setup</b></h4>
-                                    <span style="text-align: justify">Our devoted professional team strives to deliver the best campaign strategy to build your business with immense value in front of your targeted audience. Our wide range of support includes keyword research to bids, ad copies, remarketing list, and display networks sites.</span>
-                                </div>
-                                <div style="float: right;" class="col-lg-2">
-                                    <img style="margin-top: 10px; margin-left: -30px" height="110px" src="<?php echo base_url()?>/public/images/Icon-01.png">
-                                </div>
+                            <div style="float: left; width: 480px; text-align: justify;" class="col-lg-4">
+                                <h4><b>Increased Revenue</b></h4>
+                                <span style="text-align: justify">The more you invest in Local SEO, the more you will earn. Impact of local SEO in business growth is very much noticeable because it will generate more ROI.</span>
+                            </div>
+                            <div style="float: right;" class="col-lg-2">
+                                <img style="margin-top: 10px; margin-left: -30px" height="110px" src="<?php echo base_url()?>/public/images/Icon-01.png">
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div style="float: left; width: 480px; text-align: justify;" class="col-lg-4">
+                                <h4><b>Local Searches</b></h4>
+                                <span style="text-align: justify">Presence in three (3) pack is very much rare and difficult to pace up with the competition. Why? Because websites which are enticed in the three (3) pack or local pack gets more response from the customer. With professional local SEO, it is possible to put your website in the local pack.</span>
+                            </div>
+                            <div style="float: right;" class="col-lg-2">
+                                <img style="margin-top: 10px; margin-left: -30px" height="110px" src="<?php echo base_url()?>/public/images/Icon-01.png">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+
+                        <div class="row">
+                            <div style="float:left; " class="col-lg-2" >
+                                <img style="margin-top: 12px; margin-left: -10px" height="110px" src="<?php echo base_url()?>/public/images/Icon-02.png">
+                            </div>
+                            <div style="float: right;  width: 480px; text-align: justify;" class="col-lg-4">
+                                <h4><b>Mobile Device Traffic</b></h4>
+                                <span style="text-align: justify">Most of the customers prefer shopping from their device because it is more convenient and comfortable. Local SEO can put you in the customer search list based on the device location. </span>
                             </div>
 
                         </div>
-                        <div class="col-sm-6">
-
-                            <div class="row">
-                                <div style="float:left; " class="col-lg-2" >
-                                    <img style="margin-top: 12px; margin-left: -10px" height="110px" src="<?php echo base_url()?>/public/images/Icon-02.png">
-                                </div>
-                                <div style="float: right;  width: 480px; text-align: justify;" class="col-lg-4">
-                                    <h4><b>Full-Range Monitoring</b></h4>
-                                    <span style="text-align: justify">We provide a weekly and monthly report by monitoring your business campaign. Moreover, we make every subtle adjustment to create reports which will allow you to take proper initiatives to set or modify business profit margin. </span>
-                                </div>
-
+                        <br>
+                        <div class="row" >
+                            <div style=" float:left; " class="col-lg-2" >
+                                <img style="margin-top: 12px;  margin-left: -10px" height="110px" src="<?php echo base_url()?>/public/images/Icon-02.png">
                             </div>
-                            <br>
-                            <div class="row" >
-                                <div style=" float:left; " class="col-lg-2" >
-                                    <img style="margin-top: 12px;  margin-left: -10px" height="110px" src="<?php echo base_url()?>/public/images/Icon-02.png">
-                                </div>
-                                <div style="float: right ; width: 480px; text-align: justify;" class="col-lg-4">
-                                    <h4><b>Analysis & Reporting</b></h4>
-                                    <span style="text-align: justify">We love to analyze data to find insights, whether it’s about your users, customer journey or attribution. We believe this is the only way to get the very best out of your search engine marketing campaigns & understanding their real value.</span>
-                                </div>
+                            <div style="float: right ; width: 480px; text-align: justify;" class="col-lg-4">
+                                <h4><b>Boost Overall Sales</b></h4>
+                                <span style="text-align: justify">Search engine optimization can increase your revenue by up to 40%. We only provide quality SEO and we’re particularly in every part of our service.</span>
+                            </div>
 
+                        </div>
+                        <div class="row" >
+                            <div style=" float:left; " class="col-lg-2" >
+                                <img style="margin-top: 12px;  margin-left: -10px" height="110px" src="<?php echo base_url()?>/public/images/Icon-02.png">
+                            </div>
+                            <div style="float: right ; width: 480px; text-align: justify;" class="col-lg-4">
+                                <h4><b>More Traffic Generate</b></h4>
+                                <span style="text-align: justify">If you are doing business locally, Local SEO will be a wise and best choice in terms of reaching your desired customer and engage more from the familiar context.</span>
                             </div>
 
                         </div>
 
-                        </div>
+                    </div>
+
                 </div>
             </div>
-
-
-
         </div>
+
+
+
+    </div>
     <br><br><br><br>
-        <!-- Section Main Content Wrapper End -->
+    <!-- Section Main Content Wrapper End -->
 
-        <!-- Footer Section Start -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="section_footer">
-                    <div class="col-sm-6">
-                        <div class="copyright">
-                            <p>&copy;  Copyright - 2018&nbsp; | &nbsp;<a href="http://techcloudltd.com/" class="highlighted tooltip tooltip-effect-2">Tech Cloud Ltd.</a>&nbsp; | &nbsp;All Rights Reserved.</p>
-                        </div>
+    <!-- Footer Section Start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="section_footer">
+                <div class="col-sm-6">
+                    <div class="copyright">
+                        <p>&copy;  Copyright - 2018&nbsp; | &nbsp;<a href="http://techcloudltd.com/" class="highlighted tooltip tooltip-effect-2">Tech Cloud Ltd.</a>&nbsp; | &nbsp;All Rights Reserved.</p>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="float-bar">
-                            <div class="float-bar-inn-wrap">
-                                <div class="float-bar-inn">
-                                    <!--Social network share icon-->
-                                    <div class="float-bar-social-share">
-                                        <button class="social-share-facebook" onclick="javascript:window.open('http://www.facebook.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook"></i></button>
-                                        <button class="social-share-twitter" onclick="javascript:window.open('https://twitter.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></button>
-                                        <button class="social-share-google-plus" onclick="javascript:window.open('https://plus.google.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></button>
-                                        <button class="social-share-pinterest" onclick="javascript:window.open('http://pinterest.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-pinterest"></i></button>
-                                        <button class="social-share-vk" onclick="javascript:window.open('http://vkontakte.ru/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-vk"></i></button>
-                                        <button class="social-share-linkedin" onclick="javascript:window.open('http://www.linkedin.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></button>
-                                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="float-bar">
+                        <div class="float-bar-inn-wrap">
+                            <div class="float-bar-inn">
+                                <!--Social network share icon-->
+                                <div class="float-bar-social-share">
+                                    <button class="social-share-facebook" onclick="javascript:window.open('http://www.facebook.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook"></i></button>
+                                    <button class="social-share-twitter" onclick="javascript:window.open('https://twitter.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></button>
+                                    <button class="social-share-google-plus" onclick="javascript:window.open('https://plus.google.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></button>
+                                    <button class="social-share-pinterest" onclick="javascript:window.open('http://pinterest.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-pinterest"></i></button>
+                                    <button class="social-share-vk" onclick="javascript:window.open('http://vkontakte.ru/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-vk"></i></button>
+                                    <button class="social-share-linkedin" onclick="javascript:window.open('http://www.linkedin.com/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></button>
                                 </div>
-                                <!--End float inn wrap-->
-                            </div><!--End float inn-->
-                            <div class="float-bar-triggler"><i class="float-bar-triggler-inn"></i></div>
-                        </div>
+                            </div>
+                            <!--End float inn wrap-->
+                        </div><!--End float inn-->
+                        <div class="float-bar-triggler"><i class="float-bar-triggler-inn"></i></div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer Section End -->
+    </div>
+    <!-- Footer Section End -->
     </div>
 </section>
 
